@@ -33,6 +33,32 @@ def data_preprocessing():
 	data_dev = prepare_data(dev, voc_ix)
 	return (voc_ix, data_train, data_test, data_dev)
 
+
+
+
+
+'''
+get Pf for negative sampling
+'''
+def Pf(voc_ix, data, f):
+	voc_count = {}
+	for w in voc_ix.items():
+	    voc_count[w[1]] = 0
+	## count word
+	total_word = 0
+	for Xy in data:
+	    X = Xy[0]
+	    for x in X:
+	        voc_count[x.item()] += 1
+	        total_word += 1
+	        
+	## turn it into probability
+	P = [w[1]/total_word for w in voc_count.items()]
+	Pf = [p**f for p in P]
+	return Pf
+
+
+
 '''
 
 preprocess data with context
