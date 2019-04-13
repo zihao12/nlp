@@ -56,4 +56,34 @@ class LSTMlm_neg(nn.Module):
         log_sampled = (1/r) * torch.sum((1-torch.sum(torch.mul(hidden, embed_neg), dim = 2).sigmoid()).log())
         
         return -log_posi - log_sampled
+
+    def loss_function_chinge(self, hidden, y, r, Pf):
+        ## hidden [sen_len, 1, embed_len]
+        ## y [sen_len]
+        embed_y = self.word_embeddings2(y)
+        posi_score = torch.sum(torch.mul(hidden.squeeze(1),embed_y), dim = 1)
+        
+        ## sample r words
+        idx = torch.tensor(random.choices(list(range(self.vocsize)), Pf, k = r*len(y))).view(len(y), r)
+        ## get [sen_len, r, embed_len] tensor
+        embed_neg = torch.stack([self.word_embeddings2(torch.tensor(ix, dtype=torch.long)) for ix in idx], 0) 
+        neg_score = torch.sum(torch.mul(hidden, embed_neg), dim = 2) ## [sen_len, r]
+        scorem = 1 - posi_score[:,None] + neg_score
+        scorem[scorem < 0] = 0
+        
+        return torch.sum(scorem)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         

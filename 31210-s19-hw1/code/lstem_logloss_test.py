@@ -25,8 +25,8 @@ VOCAB_SIZE = len(voc_ix)
 EMBEDDING_DIM = 200
 HIDDEN_DIM = 200
 eval_per = 1000
-n_epoch = 20
-PATH = "../model/lstmlm_cen_best.pt"
+n_epoch = 2
+PATH = "../model/lstmlm_cen_test.pt"
 
 ## define model 
 model = LSTMlm(EMBEDDING_DIM, HIDDEN_DIM, VOCAB_SIZE)
@@ -45,7 +45,7 @@ start = time.time()
 for epoch in range(n_epoch):  # again, normally you would NOT do 300 epochs, it is toy data
     print("epoch " + str(epoch))
     total_loss = 0
-    for i,Xy in enumerate(data_train):
+    for i,Xy in enumerate(data_dev):
         if i % eval_per == 0:
             acc = model.evaluate(data_dev)
             if acc > best_dev_acc:
@@ -77,4 +77,3 @@ model_best = torch.load(PATH)
 model_best.eval()
 acc_test = model_best.evaluate(data_test)
 print("best model acc on test: " + str(acc_test))
-
