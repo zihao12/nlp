@@ -29,7 +29,7 @@ eval_per = 1000
 n_epoch = 20
 
 r = int(sys.argv[1])
-f = int(sys.argv[2])
+f = float(sys.argv[2])
 PATH = "../model/lstmlm_neg_f{}_r{}.pt".format(f,r)
 print(PATH)
 
