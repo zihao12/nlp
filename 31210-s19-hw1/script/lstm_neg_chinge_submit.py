@@ -6,8 +6,8 @@ path = "./"
 
 for r in rs:
     for f in fs:
-        command = "python -u ../code/lstm_neg.py {} {} > ../output/lstm_neg_r{}_f{}.pyout".format(r,f,r,f)
-        name = "lstm_neg_r{}_f{}.sbatch".format(r,f)
+        command = "python -u ../code/lstm_neg_chinge.py {} {} > ../output/lstm_neg_chinge_r{}_f{}.pyout".format(r,f,r,f)
+        name = "lstm_neg_chinge_r{}_f{}.sbatch".format(r,f)
         with open(path + name, "w") as rsh:
             with open(path + "example.sbatch", "r") as exa:
                 for item in exa.readlines():
