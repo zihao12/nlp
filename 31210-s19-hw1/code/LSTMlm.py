@@ -16,13 +16,13 @@ class LSTMlm(nn.Module):
         embeds = self.word_embeddings(sentence)
         lstm_out, _ = self.lstm(embeds.view(len(sentence), 1, -1))
         scores = self.hidden2score(lstm_out.view(len(sentence), -1))
-        probs = F.softmax(scores, dim = 1)
-        return probs
+        #probs = F.softmax(scores, dim = 1)
+        return scores
 
     def predict(self, X):
         yhat = []
-        probs = self.forward(X)
-        for idx, pred in enumerate(probs):
+        scores = self.forward(X)
+        for idx, pred in enumerate(scores):
             yhat.append(pred.argmax().item())
         return yhat
 

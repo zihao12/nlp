@@ -59,11 +59,11 @@ for epoch in range(n_epoch):  # again, normally you would NOT do 300 epochs, it 
         (X,y) = Xy
         
         # Step 3. Run our forward pass.
-        probs = model.forward(X, len(y))
+        scores = model.forward(X, len(y))
 
         # Step 4. Compute the loss, gradients, and update the parameters by
         #  calling optimizer.step()
-        loss = loss_function(probs, y)
+        loss = loss_function(scores, y)
         total_loss += loss.item()
         loss.backward()
         optimizer.step()
