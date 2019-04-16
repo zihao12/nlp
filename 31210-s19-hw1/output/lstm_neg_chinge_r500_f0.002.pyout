@@ -1,0 +1,42 @@
+False
+0.4.0
+finish preparing data
+
+../model/lstmlm_neg_chinge_f0.002_r500.pt
+epoch 0
+accuracy on dev: 0.0012567550584391101
+accuracy on dev: 0.12492145280884756
+accuracy on dev: 0.12228226718612542
+accuracy on dev: 0.12605253236144276
+accuracy on dev: 0.1301998240542918
+accuracy on dev: 0.1301998240542918
+accuracy on dev: 0.15332411712957145
+epoch 1
+accuracy on dev: 0.1538268191529471
+accuracy on dev: 0.1505592560010054
+accuracy on dev: 0.15206736207113233
+accuracy on dev: 0.1518160110594445
+accuracy on dev: 0.1560889782581375
+accuracy on dev: 0.15081060701269322
+accuracy on dev: 0.1628754555737087
+epoch 2
+accuracy on dev: 0.1641322106321478
+accuracy on dev: 0.16023626995098655
+accuracy on dev: 0.1606132964685183
+accuracy on dev: 0.1655146411964308
+accuracy on dev: 0.16274978006786478
+accuracy on dev: 0.1663943697373382
+accuracy on dev: 0.17129571446525071
+epoch 3
+accuracy on dev: 0.1731808470529094
+accuracy on dev: 0.17406057559381677
+accuracy on dev: 0.1677768003016212
+accuracy on dev: 0.1746889531230363
+accuracy on dev: 0.17406057559381677
+accuracy on dev: 0.177956516274978
+accuracy on dev: 0.176574085710695
+epoch 4
+accuracy on dev: 0.1792132713334171
+accuracy on dev: 0.1803443508860123
+accuracy on dev: 0.17644841020485108
+accuracy on dev: 0.1778308407691341

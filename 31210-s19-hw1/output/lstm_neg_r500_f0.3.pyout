@@ -5,163 +5,163 @@ finish preparing data
 ../model/lstmlm_neg_f0.3_r500.pt
 epoch 0
 accuracy on dev: 0.0012567550584391101
-accuracy on dev: 0.10129445771019228
-accuracy on dev: 0.11838632650496418
-accuracy on dev: 0.1264295588789745
-accuracy on dev: 0.11147417368354907
-accuracy on dev: 0.12353902224456453
-accuracy on dev: 0.16375518411461606
+accuracy on dev: 0.07251476687193666
+accuracy on dev: 0.0958904109589041
+accuracy on dev: 0.1025512127686314
+accuracy on dev: 0.10745255749654392
+accuracy on dev: 0.11247957773030036
+accuracy on dev: 0.12592685685559885
 epoch 1
-accuracy on dev: 0.15646600477566922
-accuracy on dev: 0.15822546185748398
-accuracy on dev: 0.15558627623476184
-accuracy on dev: 0.16501193917305518
-accuracy on dev: 0.1628754555737087
-accuracy on dev: 0.17029031041849943
-accuracy on dev: 0.1756943571697876
+accuracy on dev: 0.12492145280884756
+accuracy on dev: 0.12479577730300365
+accuracy on dev: 0.13283900967701395
+accuracy on dev: 0.1264295588789745
+accuracy on dev: 0.13221063214779438
+accuracy on dev: 0.13296468518285787
+accuracy on dev: 0.13309036068870178
 epoch 2
-accuracy on dev: 0.17745381425160237
-accuracy on dev: 0.1823551589795149
-accuracy on dev: 0.17506597964056805
-accuracy on dev: 0.17745381425160237
-accuracy on dev: 0.1769511122282267
-accuracy on dev: 0.17845921829835365
-accuracy on dev: 0.1792132713334171
+accuracy on dev: 0.13510116878220435
+accuracy on dev: 0.1300741485484479
+accuracy on dev: 0.13371873821792132
+accuracy on dev: 0.12177956516274978
+accuracy on dev: 0.12592685685559885
+accuracy on dev: 0.12291064471534498
+accuracy on dev: 0.10921201457835868
 epoch 3
-accuracy on dev: 0.18059570189770013
-accuracy on dev: 0.1844916425788614
-accuracy on dev: 0.17192409199447029
-accuracy on dev: 0.16953625738343597
-accuracy on dev: 0.1675254492899334
-accuracy on dev: 0.16362950860877215
-accuracy on dev: 0.14565791127309288
-epoch 4
-accuracy on dev: 0.14817142138997108
-accuracy on dev: 0.12391604876209626
-accuracy on dev: 0.1312052281010431
-accuracy on dev: 0.055799924594696494
-accuracy on dev: 0.06484856101545809
-accuracy on dev: 0.05341208998366218
-accuracy on dev: 0.045368857609651876
-epoch 5
-accuracy on dev: 0.045620208621339704
-accuracy on dev: 0.050018851325876586
-accuracy on dev: 0.047631016714842274
-accuracy on dev: 0.037702651753173305
-accuracy on dev: 0.04461480457458841
-accuracy on dev: 0.04323237401030539
-accuracy on dev: 0.04084453939927108
-epoch 6
-accuracy on dev: 0.042352645469398015
-accuracy on dev: 0.04247832097524192
-accuracy on dev: 0.03820535377654895
-accuracy on dev: 0.026266180721377402
-accuracy on dev: 0.05316073897197436
-accuracy on dev: 0.039587784340831975
-accuracy on dev: 0.0399648108583637
-epoch 7
-accuracy on dev: 0.03946210883498806
-accuracy on dev: 0.022495915546060074
-accuracy on dev: 0.01998240542918185
-accuracy on dev: 0.019228352394118388
-accuracy on dev: 0.053035063466130454
-accuracy on dev: 0.034686439612919444
-accuracy on dev: 0.03732562523564158
-epoch 8
-accuracy on dev: 0.03921075782330024
-accuracy on dev: 0.019228352394118388
-accuracy on dev: 0.018725650370742742
-accuracy on dev: 0.02450672363956265
-accuracy on dev: 0.050018851325876586
-accuracy on dev: 0.039839135352519796
-accuracy on dev: 0.05667965313560387
-epoch 9
-accuracy on dev: 0.05806208369988689
-accuracy on dev: 0.028779690838255625
-accuracy on dev: 0.026643207238909138
-accuracy on dev: 0.04272967198692975
-accuracy on dev: 0.0696242302375267
-accuracy on dev: 0.05077290436094005
-accuracy on dev: 0.06220937539273596
-epoch 10
-accuracy on dev: 0.06497423652130199
-accuracy on dev: 0.03807967827070504
-accuracy on dev: 0.03267563151941687
-accuracy on dev: 0.05693100414729169
-accuracy on dev: 0.07377152193037577
-accuracy on dev: 0.059067487746638184
-accuracy on dev: 0.06811612416739977
-epoch 11
-accuracy on dev: 0.07150936282518537
-accuracy on dev: 0.05077290436094005
-accuracy on dev: 0.04549453311549579
-accuracy on dev: 0.05944451426416991
-accuracy on dev: 0.0752796280005027
-accuracy on dev: 0.062083699886892045
-accuracy on dev: 0.0650999120271459
-epoch 12
-accuracy on dev: 0.07088098529596581
-accuracy on dev: 0.05052155334925223
-accuracy on dev: 0.040216161870051524
-accuracy on dev: 0.06334045494533115
-accuracy on dev: 0.0775417871056931
-accuracy on dev: 0.06195802438104813
-accuracy on dev: 0.06145532235767249
-epoch 13
-accuracy on dev: 0.06887017720246325
-accuracy on dev: 0.051401281890159606
-accuracy on dev: 0.0433580495161493
-accuracy on dev: 0.06170667336936031
+accuracy on dev: 0.11712957144652507
+accuracy on dev: 0.09387960286540153
 accuracy on dev: 0.07917556868166395
-accuracy on dev: 0.059067487746638184
-accuracy on dev: 0.059570189770013826
+accuracy on dev: 0.030916174437602112
+accuracy on dev: 0.03820535377654895
+accuracy on dev: 0.023124293075279627
+accuracy on dev: 0.013949981148674124
+epoch 4
+accuracy on dev: 0.016463491265552344
+accuracy on dev: 0.01344727912529848
+accuracy on dev: 0.013321603619454569
+accuracy on dev: 0.006535126303883373
+accuracy on dev: 0.010054040467512881
+accuracy on dev: 0.008294583385698127
+accuracy on dev: 0.007917556868166394
+epoch 5
+accuracy on dev: 0.008922960914917682
+accuracy on dev: 0.00615809978635164
+accuracy on dev: 0.00615809978635164
+accuracy on dev: 0.0036445896694734196
+accuracy on dev: 0.005529722257132085
+accuracy on dev: 0.0035189141636295085
+accuracy on dev: 0.0035189141636295085
+epoch 6
+accuracy on dev: 0.004524318210380796
+accuracy on dev: 0.0030162121402538644
+accuracy on dev: 0.0020108080935025766
+accuracy on dev: 0.0018851325876586653
+accuracy on dev: 0.0027648611285660423
+accuracy on dev: 0.0020108080935025766
+accuracy on dev: 0.0020108080935025766
+epoch 7
+accuracy on dev: 0.0023878346110343092
+accuracy on dev: 0.0013824305642830212
+accuracy on dev: 0.0012567550584391101
+accuracy on dev: 0.001131079552595199
+accuracy on dev: 0.0020108080935025766
+accuracy on dev: 0.0008797285409073771
+accuracy on dev: 0.0015081060701269322
+epoch 8
+accuracy on dev: 0.0016337815759708432
+accuracy on dev: 0.001131079552595199
+accuracy on dev: 0.0010054040467512883
+accuracy on dev: 0.0006283775292195551
+accuracy on dev: 0.0013824305642830212
+accuracy on dev: 0.0007540530350634661
+accuracy on dev: 0.001131079552595199
+epoch 9
+accuracy on dev: 0.0015081060701269322
+accuracy on dev: 0.0010054040467512883
+accuracy on dev: 0.0007540530350634661
+accuracy on dev: 0.0007540530350634661
+accuracy on dev: 0.0013824305642830212
+accuracy on dev: 0.0006283775292195551
+accuracy on dev: 0.0010054040467512883
+epoch 10
+accuracy on dev: 0.001131079552595199
+accuracy on dev: 0.0010054040467512883
+accuracy on dev: 0.0008797285409073771
+accuracy on dev: 0.0007540530350634661
+accuracy on dev: 0.0012567550584391101
+accuracy on dev: 0.0005027020233756441
+accuracy on dev: 0.0010054040467512883
+epoch 11
+accuracy on dev: 0.001131079552595199
+accuracy on dev: 0.0010054040467512883
+accuracy on dev: 0.0007540530350634661
+accuracy on dev: 0.0007540530350634661
+accuracy on dev: 0.0023878346110343092
+accuracy on dev: 0.0005027020233756441
+accuracy on dev: 0.0
+epoch 12
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+epoch 13
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
 epoch 14
-accuracy on dev: 0.06761342214402413
-accuracy on dev: 0.05655397762975996
-accuracy on dev: 0.04813371873821792
-accuracy on dev: 0.06359180595701898
-accuracy on dev: 0.07854719115244439
-accuracy on dev: 0.0638431569687068
-accuracy on dev: 0.05982154078170165
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
 epoch 15
-accuracy on dev: 0.06912152821415106
-accuracy on dev: 0.058816136734950356
-accuracy on dev: 0.05944451426416991
-accuracy on dev: 0.06899585270830715
-accuracy on dev: 0.08131205228101043
-accuracy on dev: 0.06560261405052155
-accuracy on dev: 0.044866155586276234
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
 epoch 16
-accuracy on dev: 0.05869046122910645
-accuracy on dev: 0.048636420761593566
-accuracy on dev: 0.04360940052783713
-accuracy on dev: 0.06685936910896066
-accuracy on dev: 0.07691340957647355
-accuracy on dev: 0.05843911021741863
-accuracy on dev: 0.0433580495161493
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
 epoch 17
-accuracy on dev: 0.05567424908885258
-accuracy on dev: 0.05265803694859872
-accuracy on dev: 0.04134724142264672
-accuracy on dev: 0.0627120774161116
-accuracy on dev: 0.07100666080180973
-accuracy on dev: 0.05404046751288174
-accuracy on dev: 0.03921075782330024
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
 epoch 18
-accuracy on dev: 0.0512756063843157
-accuracy on dev: 0.05064722885509614
-accuracy on dev: 0.04423777805705668
-accuracy on dev: 0.06396883247455071
-accuracy on dev: 0.07025260776674626
-accuracy on dev: 0.054668845042101295
-accuracy on dev: 0.03669724770642202
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
 epoch 19
-accuracy on dev: 0.046499937162247075
-accuracy on dev: 0.04247832097524192
-accuracy on dev: 0.04159859243433455
-accuracy on dev: 0.0637174814628629
-accuracy on dev: 0.06773909764986805
-accuracy on dev: 0.05265803694859872
-accuracy on dev: 0.03292698253110469
-runtime: 5641.931953668594s
-best model acc on test: 0.17446333291971708
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+runtime: 4962.197043180466s
+best model acc on test: 0.13004094800843777
