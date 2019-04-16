@@ -1,7 +1,10 @@
 ## submit job for lstm_neg
 import os
-rs = [20, 100, 500]
-fs = [0,0.1,0.2,0.3,0.4 ,0.5,0.7,1]
+#rs = [20, 100, 500]
+rs = [20]
+#fs = [0]
+#fs = [round(0.1*x, 2) for x in range(1,11)]
+fs = [round(0.01*x, 2) for x in range(5, 15)]
 path = "./"
 
 for r in rs:

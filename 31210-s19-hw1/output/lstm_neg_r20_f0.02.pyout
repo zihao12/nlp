@@ -4,164 +4,169 @@ finish preparing data
 
 ../model/lstmlm_neg_f0.02_r20.pt
 epoch 0
-accuracy on dev: 0.0012567550584391101
-accuracy on dev: 0.020233756440869676
-accuracy on dev: 0.010933769008420259
-accuracy on dev: 0.0035189141636295085
-accuracy on dev: 0.0012567550584391101
-accuracy on dev: 0.0007540530350634661
-accuracy on dev: 0.0023878346110343092
+accuracy on dev: 0.0012567550584391101; nsentence: 0; runtime: 4.792213439941406e-05
+accuracy on dev: 0.08822420510242554; nsentence: 1000; runtime: 23.751137256622314
+accuracy on dev: 0.12265929370365716; nsentence: 2000; runtime: 48.49210071563721
+accuracy on dev: 0.1320849566419505; nsentence: 3000; runtime: 73.78355503082275
+accuracy on dev: 0.11562146537639814; nsentence: 4000; runtime: 99.3462700843811
+accuracy on dev: 0.1300741485484479; nsentence: 5000; runtime: 124.82468032836914
+accuracy on dev: 0.17154706547693854; nsentence: 6000; runtime: 150.45057320594788
 epoch 1
-accuracy on dev: 0.002262159105190398
-accuracy on dev: 0.0007540530350634661
-accuracy on dev: 0.0013824305642830212
-accuracy on dev: 0.0015081060701269322
-accuracy on dev: 0.0006283775292195551
-accuracy on dev: 0.0006283775292195551
-accuracy on dev: 0.002262159105190398
+accuracy on dev: 0.17129571446525071; nsentence: 6036; runtime: 152.83225321769714
+accuracy on dev: 0.1594822169159231; nsentence: 7036; runtime: 178.21351194381714
+accuracy on dev: 0.1608646474802061; nsentence: 8036; runtime: 203.79973340034485
+accuracy on dev: 0.1914037954002765; nsentence: 9036; runtime: 229.32808089256287
+accuracy on dev: 0.1891416362950861; nsentence: 10036; runtime: 255.04465079307556
+accuracy on dev: 0.1800929998743245; nsentence: 11036; runtime: 280.55495166778564
+accuracy on dev: 0.21251728038205353; nsentence: 12036; runtime: 306.18663930892944
 epoch 2
-accuracy on dev: 0.002136483599346487
-accuracy on dev: 0.0012567550584391101
-accuracy on dev: 0.0008797285409073771
-accuracy on dev: 0.0007540530350634661
-accuracy on dev: 0.0006283775292195551
-accuracy on dev: 0.0005027020233756441
-accuracy on dev: 0.0
+accuracy on dev: 0.2131456579112731; nsentence: 12072; runtime: 308.55050110816956
+accuracy on dev: 0.19529973608143772; nsentence: 13072; runtime: 333.94606041908264
+accuracy on dev: 0.2108834988060827; nsentence: 14072; runtime: 359.5277795791626
+accuracy on dev: 0.21239160487620962; nsentence: 15072; runtime: 385.04046845436096
+accuracy on dev: 0.21628754555737087; nsentence: 16072; runtime: 410.64338970184326
+accuracy on dev: 0.19994972979766243; nsentence: 17072; runtime: 436.170902967453
+accuracy on dev: 0.22420510242553726; nsentence: 18072; runtime: 461.7455909252167
 epoch 3
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
+accuracy on dev: 0.2040970214905115; nsentence: 18108; runtime: 464.2303020954132
+accuracy on dev: 0.20912404172426793; nsentence: 19108; runtime: 489.5564351081848
+accuracy on dev: 0.21415106195802439; nsentence: 20108; runtime: 515.10600066185
+accuracy on dev: 0.20874701520673622; nsentence: 21108; runtime: 540.6158952713013
+accuracy on dev: 0.21012944577101922; nsentence: 22108; runtime: 566.2520809173584
+accuracy on dev: 0.21327133341711701; nsentence: 23108; runtime: 591.7238490581512
+accuracy on dev: 0.21063214779439488; nsentence: 24108; runtime: 617.3205506801605
 epoch 4
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
+accuracy on dev: 0.21126052532361442; nsentence: 24144; runtime: 619.6509535312653
+accuracy on dev: 0.2154078170164635; nsentence: 25144; runtime: 644.9819629192352
+accuracy on dev: 0.20811863767751665; nsentence: 26144; runtime: 670.5371861457825
+accuracy on dev: 0.21490511499308784; nsentence: 27144; runtime: 696.03178358078
+accuracy on dev: 0.21151187633530225; nsentence: 28144; runtime: 721.6296904087067
+accuracy on dev: 0.21025512127686313; nsentence: 29144; runtime: 747.0903761386871
+accuracy on dev: 0.22885509614176197; nsentence: 30144; runtime: 772.6639285087585
 epoch 5
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
+accuracy on dev: 0.22885509614176197; nsentence: 30180; runtime: 775.0788130760193
+accuracy on dev: 0.2018348623853211; nsentence: 31180; runtime: 800.397355556488
+accuracy on dev: 0.18323488752042227; nsentence: 32180; runtime: 825.9425892829895
+accuracy on dev: 0.19215784843533995; nsentence: 33180; runtime: 851.4280452728271
+accuracy on dev: 0.19643081563403292; nsentence: 34180; runtime: 877.0457768440247
+accuracy on dev: 0.16903355536006032; nsentence: 35180; runtime: 902.517270565033
+accuracy on dev: 0.09073771521930375; nsentence: 36180; runtime: 928.099315404892
 epoch 6
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
+accuracy on dev: 0.08847555611411335; nsentence: 36216; runtime: 930.4265654087067
+accuracy on dev: 0.09601608646474802; nsentence: 37216; runtime: 955.7575318813324
+accuracy on dev: 0.08696745004398643; nsentence: 38216; runtime: 981.213958978653
+accuracy on dev: 0.062083699886892045; nsentence: 39216; runtime: 1006.5930352210999
+accuracy on dev: 0.07540530350634661; nsentence: 40216; runtime: 1032.1116151809692
+accuracy on dev: 0.09752419253487496; nsentence: 41216; runtime: 1057.4782559871674
+accuracy on dev: 0.1334673872062335; nsentence: 42216; runtime: 1082.9691705703735
 epoch 7
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
+accuracy on dev: 0.13422144024129698; nsentence: 42252; runtime: 1085.2947013378143
+accuracy on dev: 0.09262284780696242; nsentence: 43252; runtime: 1110.5231792926788
+accuracy on dev: 0.0991579741108458; nsentence: 44252; runtime: 1135.9906747341156
+accuracy on dev: 0.056051275606384315; nsentence: 45252; runtime: 1161.4049053192139
+accuracy on dev: 0.09098906623099158; nsentence: 46252; runtime: 1186.9494395256042
+accuracy on dev: 0.0888525826316451; nsentence: 47252; runtime: 1212.3417665958405
+accuracy on dev: 0.11926605504587157; nsentence: 48252; runtime: 1237.8563776016235
 epoch 8
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
+accuracy on dev: 0.11826065099912027; nsentence: 48288; runtime: 1240.1846086978912
+accuracy on dev: 0.09739851702903105; nsentence: 49288; runtime: 1265.4238102436066
+accuracy on dev: 0.10179715973356793; nsentence: 50288; runtime: 1290.8998646736145
+accuracy on dev: 0.08068367475179088; nsentence: 51288; runtime: 1316.3044500350952
+accuracy on dev: 0.09061203971345985; nsentence: 52288; runtime: 1341.8539834022522
+accuracy on dev: 0.09237149679527461; nsentence: 53288; runtime: 1367.2310197353363
+accuracy on dev: 0.10694985547316828; nsentence: 54288; runtime: 1392.759640455246
 epoch 9
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
+accuracy on dev: 0.10669850446148045; nsentence: 54324; runtime: 1395.0918731689453
+accuracy on dev: 0.09538770893552846; nsentence: 55324; runtime: 1420.3312385082245
+accuracy on dev: 0.0968958150056554; nsentence: 56324; runtime: 1445.8160440921783
+accuracy on dev: 0.07917556868166395; nsentence: 57324; runtime: 1471.2473142147064
+accuracy on dev: 0.08395123790373256; nsentence: 58324; runtime: 1496.8011643886566
+accuracy on dev: 0.08822420510242554; nsentence: 59324; runtime: 1522.2315328121185
+accuracy on dev: 0.09413095387708935; nsentence: 60324; runtime: 1547.7705581188202
 epoch 10
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
+accuracy on dev: 0.09036068870177202; nsentence: 60360; runtime: 1550.103791475296
+accuracy on dev: 0.09513635792384065; nsentence: 61360; runtime: 1575.3831760883331
+accuracy on dev: 0.06195802438104813; nsentence: 62360; runtime: 1600.9058969020844
+accuracy on dev: 0.07666205856478572; nsentence: 63360; runtime: 1626.3564944267273
+accuracy on dev: 0.10355661681538268; nsentence: 64360; runtime: 1651.920728445053
+accuracy on dev: 0.10431066985044615; nsentence: 65360; runtime: 1677.3413078784943
+accuracy on dev: 0.10531607389719744; nsentence: 66360; runtime: 1702.896739244461
 epoch 11
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
+accuracy on dev: 0.10569310041472917; nsentence: 66396; runtime: 1705.241539478302
+accuracy on dev: 0.09677013949981149; nsentence: 67396; runtime: 1730.5031340122223
+accuracy on dev: 0.10167148422772401; nsentence: 68396; runtime: 1756.0183119773865
+accuracy on dev: 0.09940932512253361; nsentence: 69396; runtime: 1781.4772374629974
+accuracy on dev: 0.08822420510242554; nsentence: 70396; runtime: 1807.0605330467224
+accuracy on dev: 0.09790121905240669; nsentence: 71396; runtime: 1832.4710116386414
+accuracy on dev: 0.10870931255498303; nsentence: 72396; runtime: 1857.161836385727
 epoch 12
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
+accuracy on dev: 0.1072012064848561; nsentence: 72432; runtime: 1859.3279690742493
+accuracy on dev: 0.09438230488877718; nsentence: 73432; runtime: 1882.2342281341553
+accuracy on dev: 0.09940932512253361; nsentence: 74432; runtime: 1905.3056640625
+accuracy on dev: 0.09073771521930375; nsentence: 75432; runtime: 1928.3150808811188
+accuracy on dev: 0.0936282518537137; nsentence: 76432; runtime: 1951.44899392128
+accuracy on dev: 0.09212014578358678; nsentence: 77432; runtime: 1974.4600749015808
+accuracy on dev: 0.09664446399396757; nsentence: 78432; runtime: 1997.8898344039917
 epoch 13
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
+accuracy on dev: 0.09677013949981149; nsentence: 78468; runtime: 2000.1444833278656
+accuracy on dev: 0.09563905994721629; nsentence: 79468; runtime: 2023.8534610271454
+accuracy on dev: 0.08948096016086465; nsentence: 80468; runtime: 2046.9982607364655
+accuracy on dev: 0.08043232374010305; nsentence: 81468; runtime: 2070.1716389656067
+accuracy on dev: 0.09186879477189895; nsentence: 82468; runtime: 2093.304883956909
+accuracy on dev: 0.09124041724267941; nsentence: 83468; runtime: 2116.3008708953857
+accuracy on dev: 0.09890662309915797; nsentence: 84468; runtime: 2140.2766897678375
 epoch 14
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
+accuracy on dev: 0.09903229860500189; nsentence: 84504; runtime: 2142.5250964164734
+accuracy on dev: 0.09199447027774287; nsentence: 85504; runtime: 2165.569671154022
+accuracy on dev: 0.0922458212894307; nsentence: 86504; runtime: 2188.7307393550873
+accuracy on dev: 0.07892421766997612; nsentence: 87504; runtime: 2211.7825322151184
+accuracy on dev: 0.1025512127686314; nsentence: 88504; runtime: 2235.1981530189514
+accuracy on dev: 0.0981525700640945; nsentence: 89504; runtime: 2258.2674567699432
+accuracy on dev: 0.0980268945582506; nsentence: 90504; runtime: 2281.9423315525055
 epoch 15
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
+accuracy on dev: 0.09991202714590926; nsentence: 90540; runtime: 2284.1163334846497
+accuracy on dev: 0.09274852331280634; nsentence: 91540; runtime: 2306.999055624008
+accuracy on dev: 0.08747015206736207; nsentence: 92540; runtime: 2330.6535160541534
+accuracy on dev: 0.0936282518537137; nsentence: 93540; runtime: 2353.6986610889435
+accuracy on dev: 0.09890662309915797; nsentence: 94540; runtime: 2376.8479182720184
+accuracy on dev: 0.09903229860500189; nsentence: 95540; runtime: 2399.9827201366425
+accuracy on dev: 0.10091743119266056; nsentence: 96540; runtime: 2423.552947998047
 epoch 16
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
+accuracy on dev: 0.10003770265175317; nsentence: 96576; runtime: 2425.8070747852325
+accuracy on dev: 0.0992836496166897; nsentence: 97576; runtime: 2449.411231994629
+accuracy on dev: 0.0957647354530602; nsentence: 98576; runtime: 2472.6201009750366
+accuracy on dev: 0.09639311298227976; nsentence: 99576; runtime: 2497.344353914261
+accuracy on dev: 0.09764986804071886; nsentence: 100576; runtime: 2522.037092924118
+accuracy on dev: 0.10003770265175317; nsentence: 101576; runtime: 2546.1621918678284
+accuracy on dev: 0.09601608646474802; nsentence: 102576; runtime: 2570.5215010643005
 epoch 17
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
+accuracy on dev: 0.10054040467512881; nsentence: 102612; runtime: 2572.775603055954
+accuracy on dev: 0.09425662938293326; nsentence: 103612; runtime: 2596.4049694538116
+accuracy on dev: 0.09098906623099158; nsentence: 104612; runtime: 2620.269495487213
+accuracy on dev: 0.08985798667839638; nsentence: 105612; runtime: 2644.288964509964
+accuracy on dev: 0.09714716601734322; nsentence: 106612; runtime: 2668.65487408638
+accuracy on dev: 0.088978258137489; nsentence: 107612; runtime: 2692.6385612487793
+accuracy on dev: 0.09513635792384065; nsentence: 108612; runtime: 2716.6067531108856
 epoch 18
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
+accuracy on dev: 0.09538770893552846; nsentence: 108648; runtime: 2718.8363478183746
+accuracy on dev: 0.09526203342968455; nsentence: 109648; runtime: 2742.267629623413
+accuracy on dev: 0.09438230488877718; nsentence: 110648; runtime: 2766.078322649002
+accuracy on dev: 0.0935025763478698; nsentence: 111648; runtime: 2789.8030631542206
+accuracy on dev: 0.10003770265175317; nsentence: 112648; runtime: 2813.518880367279
+accuracy on dev: 0.0980268945582506; nsentence: 113648; runtime: 2837.1314566135406
+accuracy on dev: 0.08922960914917683; nsentence: 114648; runtime: 2861.0029180049896
 epoch 19
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-accuracy on dev: 0.0
-runtime: 2371.534626722336s
-best model acc on test: 0.016006948752947017
+accuracy on dev: 0.0970214905114993; nsentence: 114684; runtime: 2863.2374362945557
+accuracy on dev: 0.08973231117255247; nsentence: 115684; runtime: 2886.7753732204437
+accuracy on dev: 0.09903229860500189; nsentence: 116684; runtime: 2910.6329686641693
+accuracy on dev: 0.08156340329269825; nsentence: 117684; runtime: 2934.4609944820404
+accuracy on dev: 0.09526203342968455; nsentence: 118684; runtime: 2958.571810245514
+accuracy on dev: 0.09249717230111851; nsentence: 119684; runtime: 2982.2216675281525
+accuracy on dev: 0.09073771521930375; nsentence: 120684; runtime: 3006.5903420448303
+tolal runtime: 3008.824707508087s
+runtime until max acc: 772.6639285087585
+n_sent until max acc : 30144
+n_sent per second    : 39.0130804451787
+best model acc on test: 0.22885509614176197
+best model acc on test: 0.22186375480828888
+save accuracy
