@@ -50,11 +50,15 @@ for epoch in range(n_epoch):
     total_loss = 0
     for i,Xy in enumerate(data_train):
         if i % eval_per == 0:
+            curr_runtime = time.time() - start
+            curr_sent = len(data_train) * epoch + i
             acc = model.evaluate(data_dev, voc_ix)
             if acc > best_dev_acc:
                 best_dev_acc = acc
                 torch.save(model, PATH)
-            print("accuracy on dev: " + str(acc))
+                best_runtime = curr_runtime
+                best_sent = curr_sent
+            print("accuracy on dev: {}; nsentence: {}; runtime: {}".format(acc, curr_sent, curr_runtime))
             accs.append(acc)
         # Step 1. clear grad
         model.zero_grad()
@@ -77,10 +81,13 @@ for epoch in range(n_epoch):
 
     losses.append(total_loss)
 runtime = time.time() - start
-print("runtime: " + str(runtime) + "s")
-
+print("tolal runtime: " + str(runtime) + "s")
+print("runtime until max acc: {}".format(best_runtime))
+print("n_sent until max acc : {}".format(best_sent))
+print("n_sent per second    : {}".format(best_sent/best_runtime))
 model_best = torch.load(PATH)
 model_best.eval()
+acc_dev = model_best.evaluate(data_dev, voc_ix)
+print("best model acc on test: " + str(acc_dev))
 acc_test = model_best.evaluate(data_test, voc_ix)
 print("best model acc on test: " + str(acc_test))
-
