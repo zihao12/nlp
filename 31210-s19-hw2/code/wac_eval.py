@@ -6,14 +6,17 @@ import torch.optim as optim
 import time
 from WAC import WAC
 from data_pre import data_preprocessing
+import numpy as np
+import random
+
 torch.manual_seed(1)
+random.seed(1)
 
 print(torch.cuda.is_available())
 print(torch.__version__)
 
 '''
 TO DO: 
-* Use sparse embedding and sparse update
 * Use batching
     * set grad to be 0
     * set loss to be 0
@@ -34,11 +37,12 @@ VOCAB_SIZE = len(voc_ix)
 EMBEDDING_DIM = 100
 eval_per = 5000
 n_epoch = 5
+bsize = 500
 PATH = "../model/wac.pt"
 
 ## define model 
 model = WAC(EMBEDDING_DIM, VOCAB_SIZE)
-optimizer = optim.Adagrad(model.parameters())
+optimizer = optim.Adagrad(model.parameters(), lr = 1e-2, lr_decay = 1e-4)
 
 
 '''
@@ -50,9 +54,17 @@ accs = []
 i = 0
 best_dev_acc = 0
 start = time.time()
-for epoch in range(n_epoch):  # again, normally you would NOT do 300 epochs, it is toy data
+for epoch in range(n_epoch):  
     print("epoch " + str(epoch))
     total_loss = 0
+    loss = 0
+
+    ## shuffle data
+    combined = list(zip(trainX, trainy))
+    random.shuffle(combined)
+    trainX, trainy = zip(*combined)
+
+
     for X,y in zip(trainX, trainy):
 
         if i % eval_per == 0:
@@ -63,19 +75,21 @@ for epoch in range(n_epoch):  # again, normally you would NOT do 300 epochs, it 
                 torch.save(model, PATH)
             print("accuracy on dev: " + str(acc))
             accs.append(acc)
-        # Step 1. clear grad
-        model.zero_grad()
         
         # Step 3. Run our forward pass.
         prob = model.forward(X)
 
         # Step 4. Compute the loss, gradients, and update the parameters by
         #  calling optimizer.step()
-        loss = - y*log(prob) - (1-y)*log(1-prob) 
-        total_loss += loss.item()
-        loss.backward()
-        optimizer.step()
-        
+        loss_sent = - y*log(prob) - (1-y)*log(1-prob) 
+        loss += loss_sent
+
+        if i % bsize == 0:
+            loss.backward()
+            optimizer.step()
+            model.zero_grad()
+            total_loss += loss.item()
+            loss = 0
         i +=1
         
     losses.append(total_loss)

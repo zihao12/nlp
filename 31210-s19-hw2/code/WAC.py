@@ -9,6 +9,11 @@ class WAC(nn.Module):
 	def __init__(self, embedding_dim, vocab_size):
 		super(WAC, self).__init__()
 		self.word_embeddings = nn.Embedding(vocab_size, embedding_dim, sparse = True)
+		embed_init = torch.rand(vocab_size, embedding_dim) ## unif[0,1]
+		embed_init = 0.2 * (embed_init - 0.5)
+		self.word_embeddings.weight.data = embed_init
+
+
 		self.linear = nn.Linear(embedding_dim,1)
 		self.score2prob = nn.Sigmoid()
 
