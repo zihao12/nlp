@@ -8,12 +8,17 @@ import torch.optim as optim
 import time
 from torch.utils.data import DataLoader, TensorDataset
 
+torch.manual_seed(1)
+
+print(torch.cuda.is_available())
+print(torch.__version__)
+
 
 '''
 load and prepare data
 '''
-#(voc_ix, trainX, trainy, testX, testy, devX, devy) = data_preprocessing()
-#print("finish preparing data\n")
+(voc_ix, train_data,test_data, dev_data) = data_preprocessing()
+print("finish preparing data\n")
 
 '''
 set parameters
@@ -23,7 +28,7 @@ VOCAB_SIZE = len(voc_ix) + 1 ## well, the 0 embedding
 EMBEDDING_DIM = 100
 n_epoch = 20
 batch_size = 500
-eval_per = 20000/batch_size
+eval_per = 30000/batch_size
 PATH = "../model/wac_batch.pt"
 
 ## define model

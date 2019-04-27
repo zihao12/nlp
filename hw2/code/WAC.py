@@ -4,6 +4,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
+torch.manual_seed(1)
+
 class WAC(nn.Module):
 
 	def __init__(self, embedding_dim, vocab_size):
@@ -24,6 +26,7 @@ class WAC(nn.Module):
 		mask = torch.arange(maxlen)[None,:] < lens[:,None]
 		## set padding to be 0
 		embeds[~mask] = float(0)
+		print(mask.size())
 		## average for non-padding embedding
 		embeds_ave = (embeds.mean(dim = 1).t()*(maxlen/lens.float())).t()
 		score = self.linear(embeds_ave)
