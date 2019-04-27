@@ -17,26 +17,32 @@ class WAC(nn.Module):
 		self.linear = nn.Linear(embedding_dim,1)
 		self.score2prob = nn.Sigmoid()
 
-	def forward(self, sentence):
-		embeds = self.word_embeddings(sentence)
-		embeds_ave = embeds.mean(dim = 0)
+	def forward(self,X,lens):
+		embeds = self.word_embeddings(X)
+		## build a mask for paddings
+		maxlen = X.size(1)
+		mask = torch.arange(maxlen)[None,:] < lens[:,None]
+		## set padding to be 0
+		embeds[~mask] = float(0)
+		## average for non-padding embedding
+		embeds_ave = (embeds.mean(dim = 1).t()*(maxlen/lens.float())).t()
 		score = self.linear(embeds_ave)
 		prob = self.score2prob(score)
 		return prob
 
-	def predict(self, sentence):
-		prob = self.forward(sentence)
+	def predict(self, X,l):
+		prob = self.forward(X.unsqueeze(0), l)
 		if prob < 0.5:
 			return 0
 		else:
 			return 1
 
 	def evaluate(self, data):
-		(dataX, datay,_) = data
+		(dataX, datay,lens) = data
 		total = 0
 		correct = 0
-		for X,y in zip(dataX, datay):
+		for X,y,l in zip(dataX, datay, lens):
 			total += 1
-			if self.predict(X) == y:
+			if self.predict(X,l=torch.tensor([l], dtype = torch.long)) == y:
 				correct += 1
 		return correct/total
