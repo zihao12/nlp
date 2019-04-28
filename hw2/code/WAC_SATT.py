@@ -19,7 +19,7 @@ class WAC_SATT(nn.Module):
 	def forward(self, X, lens):
 		batch_size, maxlen = X.size()
 		## build a mask for paddings
-		mask = torch.arange(maxlen)[None,:] < lens[:,None]
+		mask = torch.arange(maxlen)[None,:] < lens[:,None].float()
 
 		## compute attention
 		embeds = self.word_embeddings(X) ## [bs, sentlen, embed]

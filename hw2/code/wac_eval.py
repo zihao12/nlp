@@ -40,7 +40,7 @@ accs = []
 i = 0
 best_dev_acc = 0
 
-myloss = torch.nn.BCELoss(weight=None, size_average=None, reduce=None)
+myloss = torch.nn.BCELoss(weight=None)
 start = time.time()
 for epoch in range(n_epoch):
     print("epoch " + str(epoch))

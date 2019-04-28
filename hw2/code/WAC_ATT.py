@@ -29,7 +29,7 @@ class WAC_ATT(nn.Module):
 
 		embeds = self.word_embeddings(X)
 		## build a mask for paddings
-		mask = torch.arange(maxlen)[None,:] < lens[:,None]
+		mask = torch.arange(maxlen)[None,:] < lens[:,None].float()
 		#print(mask.size())
 
 		## compute attention
