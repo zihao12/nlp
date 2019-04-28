@@ -20,7 +20,7 @@ class WAC_SATTR(nn.Module):
 		batch_size, maxlen = X.size()
 		embeds = self.word_embeddings(X) ## [bs, sentlen, embed]
 		## build a mask for paddings
-		mask = torch.arange(maxlen)[None,:] < lens[:,None].float()
+		mask = torch.arange(maxlen)[None,:].float() < lens[:,None].float()
 		## compute average unweighted
 		embeds_ave0 = torch.mul(mask.unsqueeze(2).float(), embeds).mean(dim = 1)
 		embeds_ave0 = embeds_ave0.mul((maxlen/lens.float()).unsqueeze(1).float())

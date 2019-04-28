@@ -23,7 +23,7 @@ class WAC(nn.Module):
 		embeds = self.word_embeddings(X)
 		## build a mask for paddings
 		maxlen = X.size(1)
-		mask = torch.arange(maxlen)[None,:] < lens[:,None].float()
+		mask = torch.arange(maxlen)[None,:].float() < lens[:,None].float()
 		## set padding to be 0
 		embeds[~mask] = float(0)
 		## average for non-padding embedding
