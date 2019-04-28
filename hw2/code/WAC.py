@@ -26,26 +26,23 @@ class WAC(nn.Module):
 		mask = torch.arange(maxlen)[None,:] < lens[:,None]
 		## set padding to be 0
 		embeds[~mask] = float(0)
-		print(mask.size())
 		## average for non-padding embedding
 		embeds_ave = (embeds.mean(dim = 1).t()*(maxlen/lens.float())).t()
 		score = self.linear(embeds_ave)
 		prob = self.score2prob(score)
 		return prob
 
-	def predict(self, X,l):
-		prob = self.forward(X.unsqueeze(0), l)
-		if prob < 0.5:
-			return 0
-		else:
-			return 1
+	def predict(self, data):
+		X,y,lens = data
+		prob = self.forward(X,lens)
+		pred = prob > 0.5
+		return pred
+
 
 	def evaluate(self, data):
-		(dataX, datay,lens) = data
-		total = 0
-		correct = 0
-		for X,y,l in zip(dataX, datay, lens):
-			total += 1
-			if self.predict(X,l=torch.tensor([l], dtype = torch.long)) == y:
-				correct += 1
-		return correct/total
+		pred = self.predict(data)
+		_,y,_ = data
+		n_correct = (pred.view(-1).float() == y.view(-1).float()).sum().item()
+		total = y.size(0)
+		return n_correct/total
+		

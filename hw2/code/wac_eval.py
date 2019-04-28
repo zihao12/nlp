@@ -40,7 +40,7 @@ accs = []
 i = 0
 best_dev_acc = 0
 
-myloss = torch.nn.BCELoss(weight=None, size_average=None, reduce=None, reduction='mean')
+myloss = torch.nn.BCELoss(weight=None, size_average=None, reduce=None)
 start = time.time()
 for epoch in range(n_epoch):
     print("epoch " + str(epoch))
@@ -64,7 +64,7 @@ for epoch in range(n_epoch):
 
         # Step 4. Compute the loss, gradients, and update the parameters by
         #  calling optimizer.step()
-        loss = myloss(prob, y.float())
+        loss = myloss(prob, y.unsqueeze(1).float())
 
         loss.backward()
         optimizer.step()

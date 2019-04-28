@@ -42,7 +42,7 @@ accs = []
 i = 0
 best_dev_acc = 0
 
-myloss = torch.nn.BCELoss(weight=None, size_average=None, reduce=None, reduction='mean')
+myloss = torch.nn.BCELoss(weight=None, size_average=None, reduce=None)
 #with torch.autograd.set_detect_anomaly(True):
 start = time.time()
 for epoch in range(n_epoch):

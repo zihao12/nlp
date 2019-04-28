@@ -13,33 +13,45 @@ class WAC_SATTR(nn.Module):
 		embed_init = 0.2 * (embed_init - 0.5)
 		self.word_embeddings.weight.data = embed_init
 
-
 		self.linear = nn.Linear(embedding_dim,1)
 		self.score2prob = nn.Sigmoid()
 
-	def forward(self, sentence):
-		embeds = self.word_embeddings(sentence)
-		att_matrix = torch.matmul(embeds, embeds.t())
-		att = torch.exp(att_matrix.sum(dim = 0))
-		att = att/att.sum()
-		embeds_ave = torch.matmul(att, embeds)
-		#embeds_ave = embeds.mean(dim = 0)
-		score = self.linear(embeds_ave + embeds.mean(dim = 0))
+	def forward(self, X, lens):
+		batch_size, maxlen = X.size()
+		embeds = self.word_embeddings(X) ## [bs, sentlen, embed]
+		## build a mask for paddings
+		mask = torch.arange(maxlen)[None,:] < lens[:,None]
+		## compute average unweighted
+		embeds_ave0 = torch.mul(mask.unsqueeze(2).float(), embeds).mean(dim = 1)
+		embeds_ave0 = embeds_ave0.mul((maxlen/lens).unsqueeze(1).float())
+
+		## compute attention
+		sim = torch.mul(embeds, embeds).sum(dim = 2) ## [bs, sentlen]
+		sim = torch.mul(sim.exp(), mask.float())
+		att = sim/ sim.sum(dim = 1, keepdim=True)
+
+		## compute average
+		embeds_ave = torch.mul(att.unsqueeze(2), embeds)
+		embeds_ave = embeds_ave.sum(dim = 1)
+
+		## compute score and probability
+		score = self.linear(embeds_ave0 + embeds_ave)
 		prob = self.score2prob(score)
 		return prob
 
-	def predict(self, sentence):
-		prob = self.forward(sentence)
-		if prob < 0.5:
-			return 0
-		else:
-			return 1
+	def predict(self, data):
+		X,y,lens = data
+		prob = self.forward(X,lens)
+		pred = prob > 0.5
+		return pred
 
-	def evaluate(self, dataX, datay):
-		total = 0
-		correct = 0
-		for X,y in zip(dataX, datay):
-			total += 1
-			if self.predict(X) == y:
-				correct += 1
-		return correct/total
+
+	def evaluate(self, data):
+		pred = self.predict(data)
+		_,y,_ = data
+		n_correct = (pred.view(-1).float() == y.view(-1).float()).sum().item()
+		total = y.size(0)
+		return n_correct/total
+		
+
+

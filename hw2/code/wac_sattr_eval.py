@@ -1,106 +1,89 @@
+from data_pre import data_preprocessing
+from WAC_SATTR import WAC_SATTR
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch import log
 import torch.optim as optim
 import time
-from WAC_SATTR import WAC_SATTR
-from data_pre import data_preprocessing
-import numpy as np
-import random
+from torch.utils.data import DataLoader, TensorDataset
 
 torch.manual_seed(1)
-random.seed(1)
 
 print(torch.cuda.is_available())
 print(torch.__version__)
 
-'''
-TO DO: 
-* Use batching
-    * set grad to be 0
-    * set loss to be 0
-    * loss.backward() and optimizer
-'''
 
 '''
 load and prepare data
 '''
-(voc_ix, trainX, trainy, testX, testy, devX, devy) = data_preprocessing() 
+(voc_ix, train_data,test_data, dev_data) = data_preprocessing()
 print("finish preparing data\n")
 
 '''
 set parameters
-'''          
-## set hyperparameters 
-VOCAB_SIZE = len(voc_ix)
+'''
+## set hyperparameters
+VOCAB_SIZE = len(voc_ix) + 1
 EMBEDDING_DIM = 100
-eval_per = 5000
-n_epoch = 5
-bsize = 500
-PATH = "../model/wac_satt.pt"
+n_epoch = 20
+batch_size = 500
+eval_per = 20000/batch_size
+PATH = "../model/wac_sattr.pt"
 
-## define model 
+## define model
 model = WAC_SATTR(EMBEDDING_DIM, VOCAB_SIZE)
-optimizer = optim.Adagrad(model.parameters(), lr = 1e-2, lr_decay = 1e-4)
+optimizer = optim.Adagrad(model.parameters(), lr = 1e-2)
 
 
-'''
-training
-'''
-## training 
+## training
 losses = []
 accs = []
 i = 0
 best_dev_acc = 0
+
+myloss = torch.nn.BCELoss(weight=None, size_average=None, reduce=None)
+#with torch.autograd.set_detect_anomaly(True):
 start = time.time()
-for epoch in range(n_epoch):  
+for epoch in range(n_epoch):
     print("epoch " + str(epoch))
-    total_loss = 0
-    loss = 0
 
-    ## shuffle data
-    combined = list(zip(trainX, trainy))
-    random.shuffle(combined)
-    trainX, trainy = zip(*combined)
-
-
-    for X,y in zip(trainX, trainy):
+    #dataloaders
+    # make sure to SHUFFLE your data
+    train_loader = DataLoader(train_data, shuffle=True, batch_size=batch_size)
+    for X,y,lens in train_loader:
 
         if i % eval_per == 0:
             print("time: {}".format(time.time() - start))
-            acc = model.evaluate(devX, devy)
+            acc = model.evaluate(dev_data.tensors)
             if acc > best_dev_acc:
                 best_dev_acc = acc
                 torch.save(model, PATH)
             print("accuracy on dev: " + str(acc))
             accs.append(acc)
-        
+
         # Step 3. Run our forward pass.
-        prob = model.forward(X)
+        prob = model.forward(X, lens)
 
         # Step 4. Compute the loss, gradients, and update the parameters by
         #  calling optimizer.step()
-        loss_sent = - y*log(prob) - (1-y)*log(1-prob) 
-        loss += loss_sent
+        #loss_sent = - y*log(prob) - (1-y)*log(1-prob)
+        loss = myloss(prob, y.unsqueeze(1).float())
+        #loss += loss_sent
 
-        if i % bsize == 0:
-            loss.backward()
-            optimizer.step()
-            model.zero_grad()
-            total_loss += loss.item()
-            loss = 0
+        #import pdb; pdb.set_trace()
+        loss.backward()
+        optimizer.step()
+        model.zero_grad()
         i +=1
-        
-    losses.append(total_loss)
-runtime = time.time() - start
+
+    losses.append(loss.item())
+    runtime = time.time() - start
 print("runtime: " + str(runtime) + "s")
 
 model_best = torch.load(PATH)
 model_best.eval()
-acc_dev = model_best.evaluate(devX, devy)
+acc_dev = model_best.evaluate(dev_data.tensors)
 print("best model acc on dev: " + str(acc_dev))
-acc_test = model_best.evaluate(testX, testy)
+acc_test = model_best.evaluate(test_data.tensors)
 print("best model acc on test: " + str(acc_test))
-
-
