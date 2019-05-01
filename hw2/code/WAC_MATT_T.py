@@ -78,6 +78,11 @@ class WAC_MATT_T(nn.Module):
 		total = y.size(0)
 		return n_correct/total
 
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 058fdce9f2de8644d9a0aadd96856337c8385a6a
 def main():
 	from data_pre import data_preprocessing
 	from data_pre import data_preprocessing
@@ -159,6 +164,11 @@ def main():
 
 	model_best = torch.load(PATH)
 	model_best.eval()
+<<<<<<< HEAD
+	acc_train = model_best.evaluate(train_data.tensors)
+	print("best model acc on train: " + str(acc_train))
+=======
+>>>>>>> 058fdce9f2de8644d9a0aadd96856337c8385a6a
 	acc_dev = model_best.evaluate(dev_data.tensors)
 	print("best model acc on dev: " + str(acc_dev))
 	acc_test = model_best.evaluate(test_data.tensors)

@@ -97,7 +97,11 @@ def main():
 	n_epoch = 20
 	batch_size = 5000
 	eval_per = 20000/batch_size
+<<<<<<< HEAD
+	PATH = "../model/wac_attt2.pt"
+=======
 	PATH = "../model/wac_attt.pt"
+>>>>>>> 058fdce9f2de8644d9a0aadd96856337c8385a6a
 
 	## define model
 	model = WAC_ATT_T(EMBEDDING_DIM,HIDDEN_DIM, VOCAB_SIZE)
@@ -110,6 +114,50 @@ def main():
 	i = 0
 	best_dev_acc = 0
 
+<<<<<<< HEAD
+	myloss = torch.nn.BCELoss(weight=None)
+	start = time.time()
+	for epoch in range(n_epoch):
+	    print("epoch " + str(epoch))
+
+	    #dataloaders
+	    # make sure to SHUFFLE your data
+	    train_loader = DataLoader(train_data, shuffle=True, batch_size=batch_size)
+	    for X,y,lens in train_loader:
+
+	        if i % eval_per == 0:
+	            print("time: {}".format(time.time() - start))
+	            acc = model.evaluate(dev_data.tensors)
+	            if acc > best_dev_acc:
+	                best_dev_acc = acc
+	                torch.save(model, PATH)
+	            print("accuracy on dev: " + str(acc))
+	            accs.append(acc)
+
+	        # Step 3. Run our forward pass.
+	        prob = model.forward(X, lens)
+
+	        # Step 4. Compute the loss, gradients, and update the parameters by
+	        #  calling optimizer.step()
+	        #loss_sent = - y*log(prob) - (1-y)*log(1-prob)
+	        loss = myloss(prob, y.float())
+	        #loss += loss_sent
+
+	        #import pdb; pdb.set_trace()
+	        loss.backward()
+	        optimizer.step()
+	        model.zero_grad()
+	        i +=1
+
+	    losses.append(loss.item())
+	    runtime = time.time() - start
+	print("runtime: " + str(runtime) + "s")
+
+	model_best = torch.load(PATH)
+	model_best.eval()
+	acc_train = model_best.evaluate(train_data.tensors)
+	print("best model acc on train: " + str(acc_train))
+=======
 	myloss = torch.nn.BCELoss(weight=None, size_average=None, reduce=None, reduction='mean')
 	with torch.autograd.set_detect_anomaly(True):
 	    start = time.time()
@@ -151,6 +199,7 @@ def main():
 
 	model_best = torch.load(PATH)
 	model_best.eval()
+>>>>>>> 058fdce9f2de8644d9a0aadd96856337c8385a6a
 	acc_dev = model_best.evaluate(dev_data.tensors)
 	print("best model acc on dev: " + str(acc_dev))
 	acc_test = model_best.evaluate(test_data.tensors)

@@ -1,14 +1,8 @@
-from data_pre import data_preprocessing
-from data_pre import data_preprocessing
-from WAC_ATT_T import WAC_ATT_T
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-from torch import log
-import torch.optim as optim
-import time
-from torch.utils.data import DataLoader, TensorDataset
+from WAC_ATT_T import main
 
+<<<<<<< HEAD
+main()
+=======
 (voc_ix, train_data,test_data, dev_data) = data_preprocessing()
 
 
@@ -87,3 +81,4 @@ acc_dev = model_best.evaluate(dev_data.tensors)
 print("best model acc on dev: " + str(acc_dev))
 acc_test = model_best.evaluate(test_data.tensors)
 print("best model acc on test: " + str(acc_test))
+>>>>>>> 058fdce9f2de8644d9a0aadd96856337c8385a6a
