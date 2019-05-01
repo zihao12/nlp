@@ -97,11 +97,7 @@ def main():
 	n_epoch = 20
 	batch_size = 5000
 	eval_per = 20000/batch_size
-<<<<<<< HEAD
-	PATH = "../model/wac_attt2.pt"
-=======
 	PATH = "../model/wac_attt.pt"
->>>>>>> 058fdce9f2de8644d9a0aadd96856337c8385a6a
 
 	## define model
 	model = WAC_ATT_T(EMBEDDING_DIM,HIDDEN_DIM, VOCAB_SIZE)
@@ -114,7 +110,6 @@ def main():
 	i = 0
 	best_dev_acc = 0
 
-<<<<<<< HEAD
 	myloss = torch.nn.BCELoss(weight=None)
 	start = time.time()
 	for epoch in range(n_epoch):
@@ -157,7 +152,6 @@ def main():
 	model_best.eval()
 	acc_train = model_best.evaluate(train_data.tensors)
 	print("best model acc on train: " + str(acc_train))
-=======
 	myloss = torch.nn.BCELoss(weight=None, size_average=None, reduce=None, reduction='mean')
 	with torch.autograd.set_detect_anomaly(True):
 	    start = time.time()
@@ -199,7 +193,6 @@ def main():
 
 	model_best = torch.load(PATH)
 	model_best.eval()
->>>>>>> 058fdce9f2de8644d9a0aadd96856337c8385a6a
 	acc_dev = model_best.evaluate(dev_data.tensors)
 	print("best model acc on dev: " + str(acc_dev))
 	acc_test = model_best.evaluate(test_data.tensors)
