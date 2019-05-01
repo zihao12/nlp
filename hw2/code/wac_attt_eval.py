@@ -29,7 +29,7 @@ HIDDEN_DIM = 100
 n_epoch = 20
 batch_size = 5000
 eval_per = 20000/batch_size
-PATH = "../model/wac_test.pt"
+PATH = "../model/wac_attt.pt"
 
 ## define model
 model = WAC_ATT_T(EMBEDDING_DIM,HIDDEN_DIM, VOCAB_SIZE)
