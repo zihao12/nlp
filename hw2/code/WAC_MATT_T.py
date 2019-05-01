@@ -8,7 +8,6 @@ class WAC_MATT_T(nn.Module):
 
 	def __init__(self, embedding_dim, hidden_dim,vocab_size):
 		super(WAC_MATT_T, self).__init__()
-		self.lam = lam
 		self.word_embeddings = nn.Embedding(vocab_size, embedding_dim)
 		embed_init = torch.rand(vocab_size, embedding_dim) ## unif[0,1]
 		embed_init = 0.2 * (embed_init - 0.5)
@@ -22,7 +21,6 @@ class WAC_MATT_T(nn.Module):
 
 
 	def forward(self, X, lens):
-		lam = self.lam
 		batch_size, maxlen = X.size()
 		## build a mask for paddings
 		mask = torch.arange(maxlen)[None,:].float() < lens[:,None].float()
@@ -125,44 +123,43 @@ accs = []
 i = 0
 best_dev_acc = 0
 
-myloss = torch.nn.BCELoss(weight=None, size_average=None, reduce=None, reduction='mean')
-with torch.autograd.set_detect_anomaly(True):
-    start = time.time()
-    for epoch in range(n_epoch):
-        print("epoch " + str(epoch))
+myloss = torch.nn.BCELoss(weight=None)
+start = time.time()
+for epoch in range(n_epoch):
+    print("epoch " + str(epoch))
 
-        #dataloaders
-        # make sure to SHUFFLE your data
-        train_loader = DataLoader(train_data, shuffle=True, batch_size=batch_size)
-        for X,y,lens in train_loader:
+    #dataloaders
+    # make sure to SHUFFLE your data
+    train_loader = DataLoader(train_data, shuffle=True, batch_size=batch_size)
+    for X,y,lens in train_loader:
 
-            if i % eval_per == 0:
-                print("time: {}".format(time.time() - start))
-                acc = model.evaluate(dev_data.tensors)
-                if acc > best_dev_acc:
-                    best_dev_acc = acc
-                    torch.save(model, PATH)
-                print("accuracy on dev: " + str(acc))
-                accs.append(acc)
+        if i % eval_per == 0:
+            print("time: {}".format(time.time() - start))
+            acc = model.evaluate(dev_data.tensors)
+            if acc > best_dev_acc:
+                best_dev_acc = acc
+                torch.save(model, PATH)
+            print("accuracy on dev: " + str(acc))
+            accs.append(acc)
 
-            # Step 3. Run our forward pass.
-            prob = model.forward(X, lens)
+        # Step 3. Run our forward pass.
+        prob = model.forward(X, lens)
 
-            # Step 4. Compute the loss, gradients, and update the parameters by
-            #  calling optimizer.step()
-            #loss_sent = - y*log(prob) - (1-y)*log(1-prob)
-            loss = myloss(prob, y.float())
-            #loss += loss_sent
+        # Step 4. Compute the loss, gradients, and update the parameters by
+        #  calling optimizer.step()
+        #loss_sent = - y*log(prob) - (1-y)*log(1-prob)
+        loss = myloss(prob, y.float())
+        #loss += loss_sent
 
-            #import pdb; pdb.set_trace()
-            loss.backward()
-            optimizer.step()
-            model.zero_grad()
-            i +=1
+        #import pdb; pdb.set_trace()
+        loss.backward()
+        optimizer.step()
+        model.zero_grad()
+        i +=1
 
-        losses.append(loss.item())
-        runtime = time.time() - start
-    print("runtime: " + str(runtime) + "s")
+    losses.append(loss.item())
+    runtime = time.time() - start
+print("runtime: " + str(runtime) + "s")
 
 model_best = torch.load(PATH)
 model_best.eval()
