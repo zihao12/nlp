@@ -1,0 +1,167 @@
+False
+0.4.0
+finish preparing data
+
+../model/lstmlm_neg_f0.2_r100.pt
+epoch 0
+accuracy on dev: 0.0012567550584391101
+accuracy on dev: 0.06170667336936031
+accuracy on dev: 0.076285032047254
+accuracy on dev: 0.05655397762975996
+accuracy on dev: 0.07502827698881488
+accuracy on dev: 0.03707427422395375
+accuracy on dev: 0.02438104813371874
+epoch 1
+accuracy on dev: 0.026391856227221313
+accuracy on dev: 0.011310795525951992
+accuracy on dev: 0.012567550584391102
+accuracy on dev: 0.010933769008420259
+accuracy on dev: 0.008168907879854217
+accuracy on dev: 0.009425662938293326
+accuracy on dev: 0.008922960914917682
+epoch 2
+accuracy on dev: 0.010179715973356793
+accuracy on dev: 0.004649993716224708
+accuracy on dev: 0.008420258891542038
+accuracy on dev: 0.00992836496166897
+accuracy on dev: 0.008420258891542038
+accuracy on dev: 0.008922960914917682
+accuracy on dev: 0.008671609903229861
+epoch 3
+accuracy on dev: 0.010179715973356793
+accuracy on dev: 0.005906748774663818
+accuracy on dev: 0.008671609903229861
+accuracy on dev: 0.009174311926605505
+accuracy on dev: 0.007791881362322483
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+epoch 4
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+epoch 5
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+epoch 6
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+epoch 7
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+epoch 8
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+epoch 9
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+epoch 10
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+epoch 11
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+epoch 12
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+epoch 13
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+epoch 14
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+epoch 15
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+epoch 16
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+epoch 17
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+epoch 18
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+epoch 19
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+accuracy on dev: 0.0
+runtime: 2887.3267011642456s
+best model acc on test: 0.07035612358853456

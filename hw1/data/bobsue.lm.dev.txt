@@ -1,0 +1,750 @@
+<s> He found the game he wanted online and ordered it . </s>
+<s> Bob decided to list his car online </s>
+<s> Bob and the rest of the office laughed at her . </s>
+<s> They went outside to play a game of basketball . </s>
+<s> All of sudden a big deer came running across the road . </s>
+<s> He drank the coffee in one sitting . </s>
+<s> Bob cooked his mother her favorite dish from when she was a child . </s>
+<s> Bob looked around for the owner . </s>
+<s> Bob stared back at the deer , also not moving . </s>
+<s> Bob was sad . </s>
+<s> But he didn 't know anyone there . </s>
+<s> Sue went and had lunch at her friend 's house . </s>
+<s> Bob returned home to get the tickets , but his date left . </s>
+<s> He looked everywhere for it . </s>
+<s> He loved his wife and wanted everything to be perfect . </s>
+<s> He enjoyed the game very much . </s>
+<s> Bob was determined to win , and spent weeks working on his costume . </s>
+<s> Bob agreed to the race . </s>
+<s> The daughter had taken her bike and it was too dark to ride it home . </s>
+<s> They had one date and Bob was soon hoping for another ! </s>
+<s> She went early to be sure she was on time . </s>
+<s> Sue walked all the way home alone . </s>
+<s> Bob slipped on the floor right in front of his table . </s>
+<s> Bob didn 't feel like getting out of bed . </s>
+<s> He had concert tickets to see his favorite group . </s>
+<s> Bob had given his boss the cold . </s>
+<s> He finally found the ball sitting under the seat . </s>
+<s> So he decided to take it to a mechanic . </s>
+<s> One day he ran out of rice bags . </s>
+<s> Bob knew he couldn 't ride back home . </s>
+<s> But her guy wasn 't as hot as the one Sue had . </s>
+<s> He was very excited and began to run home . </s>
+<s> Sue was happy to have new clothes . </s>
+<s> She went to the dress store with her best friend . </s>
+<s> Sue had to move far away . </s>
+<s> Bob loved the zoo ! </s>
+<s> Although he didn 't win his race , Bob was very proud of himself . </s>
+<s> He always played with his friends after school . </s>
+<s> Bob 's girlfriend was very happy with the meal . </s>
+<s> She called her friends to ask them to come with her . </s>
+<s> They were so good that Bob decided to try other people 's cookies . </s>
+<s> He waited to see if they would see him . </s>
+<s> Sue left to go home and change . </s>
+<s> Sue was amazed at how great it looked . </s>
+<s> It was his first time . </s>
+<s> Sue cried and ran to her room . </s>
+<s> The girl left , and Sue never saw her again . </s>
+<s> Now he was back . </s>
+<s> Sue only had $ 3 she had taken from he mom 's coat . </s>
+<s> He was nervous . </s>
+<s> That day Bob went to lunch with his father </s>
+<s> She looked online at cars near her home . </s>
+<s> Bob failed his test because he had not studied . </s>
+<s> He didn 't have enough money for a new car . </s>
+<s> Sue chose a doll that looked just like her . </s>
+<s> Now Bob is very sad because he doesn 't have much money . </s>
+<s> It was the only place at her grandparents she could be alone . </s>
+<s> Everyone panicked and tried to run outside . </s>
+<s> Bob lost the dog in two weeks . </s>
+<s> Sue thought it was a good idea . </s>
+<s> One day , he made a really great choice and the boss asked to see him . </s>
+<s> Then his girlfriend offered to make him a special dish . </s>
+<s> He loved speeding in it everywhere . </s>
+<s> He knew his mom and dad couldn 't afford one , though . </s>
+<s> He could feel gas build up in his stomach . </s>
+<s> Now Bob had to learn to dance . </s>
+<s> He was really scared he was going to do bad . </s>
+<s> The next time she brought her dog , she was arrested . </s>
+<s> Bob 's friends went to his old apartment . </s>
+<s> Then one day Sue told him she was pregnant . </s>
+<s> Sue decided to each lunch from then on . </s>
+<s> Bob got an A on his next math test and he was very happy . </s>
+<s> Bob couldn 't get mad at the dog </s>
+<s> Sue 's boyfriend knew about this and decided he wanted to help . </s>
+<s> She saw a woman leaving Bob 's house late at night . </s>
+<s> Bob brought his own food to school from then on . </s>
+<s> They both agreed to meet again . </s>
+<s> He watched the old man ahead of him get out of his car . </s>
+<s> She hoped for a girl . </s>
+<s> Bob was angry . </s>
+<s> The bully wanted to fight Bobby after school yesterday . </s>
+<s> Bob approached the girl to ask if she was going to prom . </s>
+<s> He tried drinking some coffee but he still felt tired . </s>
+<s> Bob knew his mom had no money he was sad . </s>
+<s> Sue had her baby immediately afterwards . </s>
+<s> The two went on a date and hit it off . </s>
+<s> When they got to the restaurant and the food was terrible . </s>
+<s> She was always right ! </s>
+<s> Bob spilled his coffee on his suit ! </s>
+<s> She wanted to work on her report . </s>
+<s> He ended up having fun the whole night . </s>
+<s> They had just left a party . </s>
+<s> He bought his tickets online . </s>
+<s> Sue then started to spend too much money . </s>
+<s> She knew something was not quite right . </s>
+<s> He saw several of his friends . </s>
+<s> He told Sue it didn 't matter , he just wanted her to get better . </s>
+<s> Bob had worked to long so he hadn 't prepared dinner . </s>
+<s> Bob didn 't make enough money that day . </s>
+<s> He said it was the most fun he 's had in a long time . </s>
+<s> She had the teacher hide her lunch until it was time to eat . </s>
+<s> When he found out his friend Bob was seeing Sue , he was furious . </s>
+<s> One day Bob upset Sue . </s>
+<s> He noticed the snow outside . </s>
+<s> She was sad and happy at the same time . </s>
+<s> They always loved shopping . </s>
+<s> His team was made of 3 mean . </s>
+<s> When Sue went to take it , she realized it was not that bad . </s>
+<s> Bob was right behind him . </s>
+<s> Bob had a hard time making all the food fit . </s>
+<s> However , he wanted to play with Bob 's toy boat . </s>
+<s> This weekend , they were going on their first . </s>
+<s> They began to get short on money . </s>
+<s> One day it began to rainy hard so Bob needed to find shelter . </s>
+<s> She was happy it had turned out well . </s>
+<s> She decided to ask him out one day . </s>
+<s> One day he stood up to his bully . </s>
+<s> The kids were being very loud . </s>
+<s> Bob was upset but paid it anyway . </s>
+<s> She needed to get her stuff home but had no car . </s>
+<s> He let the grass grow really tall . </s>
+<s> His dad was too tired from work . </s>
+<s> It was really bad weather outside </s>
+<s> She reached out to him and set up a meeting . </s>
+<s> She worked very slow because she hated it so much . </s>
+<s> Bob felt in love with the woman that hit his car . </s>
+<s> Bob missed 10 months of work . </s>
+<s> Sue told her friend what had happened . </s>
+<s> His father would not build him one . </s>
+<s> He had to catch a flight for a job interview . </s>
+<s> He had to stay in bed for three days . </s>
+<s> He offered Bob his old job . </s>
+<s> He was given more play time from then on out . </s>
+<s> Sue showed up an hour later and the three of them played together . </s>
+<s> He put it outside . </s>
+<s> To this day Bob has never gone camping again . </s>
+<s> One day at lunch Bob walked over and asked to see her watch . </s>
+<s> Bob spent hours working for money for the project . </s>
+<s> Bob was on his way to being a doctor ! </s>
+<s> She was cold and wet . </s>
+<s> Sue 's note said yes ! </s>
+<s> Bob doesn 't know how to swim . </s>
+<s> The whole class laughed at Sue since it was the wrong answer . </s>
+<s> He looked online to find the one he wanted . </s>
+<s> He had purchased the car off of his neighbor . </s>
+<s> He then saw a kid by himself . </s>
+<s> So he bought painting supplies and a painting book . </s>
+<s> Bob was sad by this and started to cry . </s>
+<s> Sue couldn 't believe it . </s>
+<s> He would be starting for his team . </s>
+<s> He came home with a new beer he saw in the market . </s>
+<s> Bob was glad to find a dress for his daughter today . </s>
+<s> It was very slow . </s>
+<s> But she was so interested in Bob she wasn 't paying attention . </s>
+<s> His dad told him that he couldn 't get the puppy . </s>
+<s> Bob was very pleased to have his puppy back . </s>
+<s> They were in town and Sue 's friends were all going . </s>
+<s> They sat in their boat all day . </s>
+<s> His sister told him it was just the wind and laughed out loud . </s>
+<s> He tried to break it open but it didn 't work . </s>
+<s> Sue chased her cat to a tree . </s>
+<s> Eventually he found the ball but never found his dog . </s>
+<s> She decided to go to the park . </s>
+<s> She had a dream about her family . </s>
+<s> Eventually , Bob and Sue fell in love . </s>
+<s> The phone rang soon after the mail came , but he didn 't answer it . </s>
+<s> Her mother made her close the window and grounded her . </s>
+<s> One day the laptop stopped working . </s>
+<s> He accidentally dropped him lunch money . </s>
+<s> He grabbed the bag of lunch left out by his wife and ran out . </s>
+<s> He fell and hurt his knee . </s>
+<s> When he ate everything he just asked for more . </s>
+<s> Bob was going to enjoy his day of fishing . </s>
+<s> He was playing with toys at his desk . </s>
+<s> Sue woke up early to open her presents . </s>
+<s> Bob 's dad brought home a new cup . </s>
+<s> One day the dog ate too much grass and got sick . </s>
+<s> The new kid beat him . </s>
+<s> The next morning she woke up and panicked after looking at the time . </s>
+<s> Now Bob works at the library because he loves reading ! </s>
+<s> Then she invited Sue to go with her . </s>
+<s> Sue has been taking the class for over a year now . </s>
+<s> He decided to join the track team at his school . </s>
+<s> Her mom had decided to buy her a new one as a gift . </s>
+<s> He played very well at all his games . </s>
+<s> Bob was very surprised at how much money it would cost . </s>
+<s> There was a big crowd at the ticket counter . </s>
+<s> She had four of her own horses . </s>
+<s> Bob asked his grandmother for some extra money . </s>
+<s> But Sue was ready for them . </s>
+<s> Sue went with her parents and got the puppy . </s>
+<s> Bob 's dog ran over to see her dog . </s>
+<s> Bob loved having grandma over . </s>
+<s> He got the suit , paid , and drove home again . </s>
+<s> Bob walked over to talk to her . </s>
+<s> Sue and her grandpa were trying to decide what to watch . </s>
+<s> It was a game he has been waiting for for a year . </s>
+<s> And he had a brand new desk . </s>
+<s> She stopped on the porch and took her shoes off . </s>
+<s> She then found out so did her friend Tami . </s>
+<s> So he prepared lots of food for himself . </s>
+<s> Bob even played during school . </s>
+<s> Then she saw that she was out of cream ! </s>
+<s> Bob ended up talking with his friends on the phone the whole trip . </s>
+<s> Sue needed the money so she agreed . </s>
+<s> He decided to order a pizza . </s>
+<s> He didn 't keep up during class . </s>
+<s> She decided it would be better to wait than get in trouble . </s>
+<s> He was holding his phone in his hand . </s>
+<s> Bob enjoyed his time spent at his birthday party . </s>
+<s> He then realized he had no other ingredients . </s>
+<s> He didn 't feel like doing too much work on a costume . </s>
+<s> Sue is now grounded for giving her brother a black eye . </s>
+<s> Bob feared going home from school every day because of this . </s>
+<s> Bob never kicked the ball towards the fence again . </s>
+<s> Sue was hired for the job . </s>
+<s> Bob never leaves home without his snow boots now . </s>
+<s> She decided to get a part time job . </s>
+<s> Bob could not even get out of his bed . </s>
+<s> Bob saved up some money and bought a car so they could date more . </s>
+<s> Bob took the dog to his house . </s>
+<s> He set his alarm and went to sleep early . </s>
+<s> He was far ahead and there were lot 's of people between them . </s>
+<s> She should have started working on her report . </s>
+<s> The cat only had one eye . </s>
+<s> The kids found them and had fun . </s>
+<s> He found it difficult to read things . </s>
+<s> He learned that there was going to be a snow storm tomorrow . </s>
+<s> Bob 's best friend 's birthday is also tomorrow . </s>
+<s> He flew through the air towards the ground . </s>
+<s> Their boss returned the next day and saw that no work had been done . </s>
+<s> Sue knew she was in trouble . </s>
+<s> He wanted to buy a new car . </s>
+<s> When they arrived in New York , Sue surprised her with tickets . </s>
+<s> Now she had it back and all was right with the world . </s>
+<s> He ran and kicked the ball . </s>
+<s> He was at the grocery store . </s>
+<s> She felt badly . </s>
+<s> He was very good at it . </s>
+<s> She accepted the offer . </s>
+<s> He went to his neighbor to ask for help . </s>
+<s> Jay and Sue met in a hotel once a week . </s>
+<s> Sue screamed . </s>
+<s> One night , Bob could not turn on the lights . </s>
+<s> Sue began to walk down the street . </s>
+<s> He only had one day before the test . </s>
+<s> When the first day of school arrived , Bob was no longer afraid . </s>
+<s> He pushed me in . </s>
+<s> He asked his girlfriend . </s>
+<s> Sue was so happy to be married to Bob that she didn 't even care . </s>
+<s> Sue 's loved the cookies . </s>
+<s> Finally she was able to get on the highway to drive home . </s>
+<s> He had to go to his mother . </s>
+<s> He thought about buying a dog . </s>
+<s> Bob did not have too much money for the movies . </s>
+<s> Sue ate a lot of salad . </s>
+<s> The deer hit the side of Bob 's truck . </s>
+<s> Bob was very happy to learn this since he couldn 't take a picture . </s>
+<s> Bob picked it up and kept it . </s>
+<s> His dad said he could go if he did all his chores . </s>
+<s> Bob then realized that being different is what makes him special . </s>
+<s> His face got burned from the hot coffee . </s>
+<s> When he got to the store , he ran into his friend Sue . </s>
+<s> Bob 's father would not let him drive his car . </s>
+<s> Bob drove two hours out of town and found a farm . </s>
+<s> Bob decided to drive to another grocery store . </s>
+<s> Bob lived ten more years . </s>
+<s> He woke up suddenly was scared . </s>
+<s> Her parents took her to get ice cream . </s>
+<s> At the end of the day , Sue had caught nothing . </s>
+<s> Bob told her he didn 't want to . </s>
+<s> He practiced hard all week . </s>
+<s> Bob wanted to go . </s>
+<s> He ate it very quickly . </s>
+<s> She went to her friend , Sue 's house to ask her is she had seen it . </s>
+<s> Bob gave it some horse medicine . </s>
+<s> Bob felt bad for Sam . </s>
+<s> When Bob returned home , he was so happy to get his snake back . </s>
+<s> He decided to cool off by going for a drive . </s>
+<s> After a week , Sue was able to get her doll . </s>
+<s> Bob didn 't speak to his brother for a week . </s>
+<s> Sue wanted to go to the beach . </s>
+<s> One day she accidentally dropped her cell phone . </s>
+<s> She brought Bob down to the basement where dad was working . </s>
+<s> Bob cleaned up his mess . </s>
+<s> She decided to cook one for dinner one night . </s>
+<s> After he got home , he decided to clean himself up . </s>
+<s> He wasn 't much of a cook . </s>
+<s> Sue 's mom went to the shelter to find one . </s>
+<s> The three women went to the mall together . </s>
+<s> He stopped eating ice cream and got a girlfriend . </s>
+<s> Bob climbed on the seat . </s>
+<s> Bob decided he would say nothing about it . </s>
+<s> She went on home . </s>
+<s> But the window didn 't have a screen . </s>
+<s> She wanted to get him something special . </s>
+<s> She got in her car and drove to her favorite shopping center . </s>
+<s> It stayed there for several weeks . </s>
+<s> Bob is not as good as he thought . </s>
+<s> However , he could not get his teacher 's attention . </s>
+<s> Bob put him in his car and took him to the hospital . </s>
+<s> Sue thought for sure she didn 't get the job . </s>
+<s> After some practice Bob was riding his bike all on his own . </s>
+<s> She wanted money to get a new car , so she went out to get a job . </s>
+<s> After driving only an hour or so , she heard a strange noise . </s>
+<s> One day Bob 's parents bought him a new video game . </s>
+<s> He was planning all the fun they would have together . </s>
+<s> Bob decided to go to the lake to fish . </s>
+<s> Bob was very sad about this . </s>
+<s> She started not talking to her friends to be cool . </s>
+<s> But Sue didn 't want to because she didn 't know how to swim . </s>
+<s> There was nothing there . </s>
+<s> He is very nervous and did not sleep at all during the night . </s>
+<s> It landed into the tree . </s>
+<s> When he got to the store his phone died . </s>
+<s> But 4 days had passed . </s>
+<s> He was waiting to meet his friends . </s>
+<s> Bob got loose during their walk yesterday . </s>
+<s> She ask her mother if she could stay at home from school . </s>
+<s> Sue went to the store and got all of the ingredients . </s>
+<s> Bob 's girlfriend was watching a scary movie . </s>
+<s> He went to the pet store . </s>
+<s> Bob decided to make a trip to the grocery store . </s>
+<s> There was a man who walked his dog there every day . </s>
+<s> She found a great recipe and had fun putting it together . </s>
+<s> Bob decides on the boat he wants . </s>
+<s> They were bored . </s>
+<s> Christmas was coming up and he had no idea what to buy her . </s>
+<s> Bob could still bench more than him . </s>
+<s> His dad had to miss work the very next day . </s>
+<s> She tried the bathroom window on the side of the house . </s>
+<s> He smiled big when he saw her . </s>
+<s> He tried to talk to his girlfriend on their date . </s>
+<s> He asked if I could change his name . </s>
+<s> She and her boyfriend decided to go for a long walk . </s>
+<s> Suddenly a strange man approached him . </s>
+<s> He did not want to put the miles on his car . </s>
+<s> Even though it was expensive , Bob was relieved . </s>
+<s> His grandmother became very lonely after he moved out . </s>
+<s> She accepted , which made me both happy and nervous . </s>
+<s> At the mall she did some Christmas shopping . </s>
+<s> Bob stopped and proposed to his girlfriend who happily said yes . </s>
+<s> Bob went with them and ended up having a great time ! </s>
+<s> After that they spent the rest of the day at the lake . </s>
+<s> She could not find her toy . </s>
+<s> She hadn 't realized all her other friends would take Sue 's side . </s>
+<s> She continued working and did not care what they thought . </s>
+<s> Bob 's dad got sick and could no longer go fishing . </s>
+<s> He ate them for breakfast , lunch and dinner . </s>
+<s> The guitar broke and Bob was pretty upset . </s>
+<s> Sunday morning , they both woke up early . </s>
+<s> She asked her parents to teach her . </s>
+<s> He fell asleep in his car in a parking lot of a park . </s>
+<s> When she got home she realized she lost her keys . </s>
+<s> Bob got the job ! </s>
+<s> His foot started to hurt . </s>
+<s> He was playing with other children and having fun . </s>
+<s> Sue complained to her mother . </s>
+<s> Bob helped to take care of him . </s>
+<s> As soon as he saw it , he thanked his parents . </s>
+<s> Sue was quite nervous . </s>
+<s> Her work was far away from her house . </s>
+<s> Bob moved his father in with him . </s>
+<s> An hour later , Bob had a clean room and a beer in his hand . </s>
+<s> They ate dinner in Sue 's apartment . </s>
+<s> Sue was last to find out . </s>
+<s> She decided to paint the house . </s>
+<s> Bob and his dog played in the park . </s>
+<s> The cookies were great . </s>
+<s> He looked around the house but found nothing to do . </s>
+<s> He set his watch five minutes fast just in case . </s>
+<s> She thought Bob liked her and wanted her there . </s>
+<s> His parents told him he was grounded until it was clean . </s>
+<s> Sue knew she would be in trouble if she woke him up . </s>
+<s> And Sue felt sad . </s>
+<s> As a result , Sue threw her entire soup away . </s>
+<s> Sue happily picked two and her mom agreed to take her . </s>
+<s> He needs money due to losing his job . </s>
+<s> When they finished , Bob headed home . </s>
+<s> After saving up all of his money Bob bought a computer . </s>
+<s> Chris tried to start a fight but Bob said let 's race . </s>
+<s> They decided to meet at a bar the following night . </s>
+<s> Bob realized that he was going to miss his parents . </s>
+<s> Sue and her family liked them a lot . </s>
+<s> He could throw it far . </s>
+<s> But Sue didn 't care . </s>
+<s> Bob ended up being late to every class he had . </s>
+<s> Bob became sad . </s>
+<s> Sue got first place . </s>
+<s> Sue pushed her clothes under the bed . </s>
+<s> They didn 't get a bite for several hours . </s>
+<s> Sue ate the sandwich . </s>
+<s> And she was tired of playing games with this boy . </s>
+<s> Sue immediately told free and he was thrilled . </s>
+<s> He had taken several Years off school and was scared of college class . </s>
+<s> His dad said it was safe to eat so Bob ate some . </s>
+<s> Bob 's grades slipped . </s>
+<s> He planned to have a garage sale . </s>
+<s> When she came home , she showed the rocks to friends . </s>
+<s> The car started and he put it in drive . </s>
+<s> The next day Sue got sick . </s>
+<s> He asked his friend for some advice . </s>
+<s> Bob was nervous about the move . </s>
+<s> Sue was upset to leave the store without a new computer . </s>
+<s> Sue said that she 'd give it to him tomorrow . </s>
+<s> Her parents read the entire list , impressed . </s>
+<s> Sue wondered where she could be . </s>
+<s> The school bully came to their table and sat down . </s>
+<s> She was supposed to wear them all the time . </s>
+<s> By the time Sue was done with the call , the pie was burned . </s>
+<s> Sue was really excited , because she wanted to see the animals . </s>
+<s> But her friends Sue , and Tami wanted to go as well </s>
+<s> Sue had to go to the doctor immediately and get it checked . </s>
+<s> She went from store to store but couldn 't find anything . </s>
+<s> Bob was excited because he was able to choose the movie . </s>
+<s> Their team lost the game and was sad . </s>
+<s> Sue was very happy with her new doll . </s>
+<s> She got up and walked to the kitchen . </s>
+<s> Bob bought the car and was very happy . </s>
+<s> He had saved up money for the past year . </s>
+<s> He spotted a cute girl across the street . </s>
+<s> No one ever came in Bob 's yard again . </s>
+<s> His dog woke him up in the middle of the night . </s>
+<s> She visited friends the night before a college exam . </s>
+<s> Bob did not eat the new food ever again . </s>
+<s> She got dressed . </s>
+<s> When he awoke he remembered it was trash day . </s>
+<s> He thought he might have left it at a restaurant . </s>
+<s> Sue felt very lonely . </s>
+<s> It turned out that the instructor 's uncle wrote the song ! </s>
+<s> He was on the way to visit his parents . </s>
+<s> Sue had a wonderful time shopping with her family ! </s>
+<s> He was late for the exam and the teacher wouldn 't let him in . </s>
+<s> But she said she didn 't understand it . </s>
+<s> He became my best friend ! </s>
+<s> He wanted to go play . </s>
+<s> When he got his grade back , he got every question wrong . </s>
+<s> He found some money on the street . </s>
+<s> Bob does not listen well . </s>
+<s> The tennis ball landed in a pond . </s>
+<s> She applied at a store near her home and never heard back . </s>
+<s> He opened all the gifts under the tree . </s>
+<s> But Bob wasn 't mad . </s>
+<s> They couldn 't wait to come back . </s>
+<s> He didn 't know where he wanted to go , though . </s>
+<s> Chris called Sue and invited her . </s>
+<s> His friends promised that he would never get to order for them again . </s>
+<s> Bob was disappointed that he could not swim in the pool . </s>
+<s> The homeless man begged him for money . </s>
+<s> She finally had enough saved for a nice vacation . </s>
+<s> She sat on the swing everyday at the park . </s>
+<s> Chris and Sue went to the concert together . </s>
+<s> It was making her lonely . </s>
+<s> He wanted to build a garden in his backyard . </s>
+<s> Suddenly she seen a brand new red car and bought it . </s>
+<s> He felt nervous because they were very successful and he wasn 't yet . </s>
+<s> Sue wrote a letter to Santa asking for a horse . </s>
+<s> Sue ended up winning first place . </s>
+<s> Sue pulled up at her house and called her . </s>
+<s> He felt much better afterwards . </s>
+<s> To afford the dress Sue started working a second job . </s>
+<s> He found some new steak sauce that he was going to try . </s>
+<s> But they kept throwing things . </s>
+<s> She was upset when there was no food on the table . </s>
+<s> He called in sick . </s>
+<s> Bob seemed to be buying it . </s>
+<s> Bob called a meeting . </s>
+<s> He slept in late . </s>
+<s> The bully decided to trip her . </s>
+<s> After dinner Bob ordered a bottle of wine . </s>
+<s> Sue grounded her kids . </s>
+<s> Her hair was blue . </s>
+<s> Bob couldn 't decide how he wanted his hair cut . </s>
+<s> After watching the movie Bob bought his girlfriend ice cream . </s>
+<s> Bob decided he was going to paint the floor of his garage instead . </s>
+<s> He ended up losing control , and fell . </s>
+<s> Bob learned a lot . </s>
+<s> Sue 's fish were happy and lived a long time ! </s>
+<s> Bob 's wife told him that she loved him just the way he was . </s>
+<s> Sue decided to cook some eggs . </s>
+<s> Sue bought a different doll . </s>
+<s> She looked everywhere in her car . </s>
+<s> Bob began dating Sue . </s>
+<s> Bob had practiced hard for weeks . </s>
+<s> His father found out and grounded him for a week . </s>
+<s> Bob bought the store from Sue . </s>
+<s> Their teacher promised they would see many animals . </s>
+<s> She said yes and Bob moved out , calling every other day . </s>
+<s> While walking they stopped by the park . </s>
+<s> The interview went well . </s>
+<s> He called his girlfriend but she said she was sick . </s>
+<s> The other car took Bob 's spot . </s>
+<s> She was really excited . </s>
+<s> The whole game no one passed him the ball . </s>
+<s> Sue immediately bought tickets for her and her friends . </s>
+<s> There was a huge line ! </s>
+<s> They arrived at the restaurant . </s>
+<s> Sue didn 't want to . </s>
+<s> The ring was too big . </s>
+<s> Sue was not happy with her choice to go through the grass . </s>
+<s> He was working on a big project . </s>
+<s> But she had no money left . </s>
+<s> Bob decided he wanted his school to have a big running track . </s>
+<s> Bob 's mom decided to do something about it . </s>
+<s> Sue asked her kids to stop playing and help clean . </s>
+<s> In front , they saw a box with some people around it . </s>
+<s> He wanted to test it out . </s>
+<s> She showed Sue the one she had instead . </s>
+<s> She was in high school and only worked part time . </s>
+<s> Bob went to her school , and they became friends . </s>
+<s> Sue spent some of her money on new clothes . </s>
+<s> They both ended up very happy . </s>
+<s> One day , Sue was pulled over by a police officer for speeding . </s>
+<s> She went to the pet store to pick one out . </s>
+<s> Bob went to a party with his friends . </s>
+<s> However Sue felt all better when she opened gifts . </s>
+<s> Bob 's daughter thought he had too many . </s>
+<s> He had never felt he was good enough for anything or anyone . </s>
+<s> He had agreed even though he hated it . </s>
+<s> He took all his clothes down to the machine to wash them . </s>
+<s> He had to ask someone else to help pull him out . </s>
+<s> He went to the store and looked for what he wanted . </s>
+<s> He failed his test the next day . </s>
+<s> After his first day , he asked if he could walk home with her . </s>
+<s> Bob felt very sick one day . </s>
+<s> Sue realized she should stop being mean . </s>
+<s> Every morning Sue went for a run . </s>
+<s> Now he is a doctor . </s>
+<s> One night , she helped cook dinner . </s>
+<s> So he joined his school 's chess club . </s>
+<s> He was afraid ! </s>
+<s> One day he didn 't come inside at night . </s>
+<s> Bob felt much better after he took it . </s>
+<s> She met a lot of cool people and was glad her date never showed up . </s>
+<s> He can 't wait until next year 's party . </s>
+<s> Sue decided to leave work to sleep . </s>
+<s> He was going to teach her to ride her bike . </s>
+<s> When Bob picked Sue up for a date he had something special planned . </s>
+<s> She ordered chocolate . </s>
+<s> He was trying to write the next big hit song . </s>
+<s> He opened the fridge . </s>
+<s> Unfortunately , she had too much homework . </s>
+<s> They didn 't know any of the kids on the block . </s>
+<s> Bob went to his neighbor for help . </s>
+<s> Santa read the list . </s>
+<s> Sue felt bad afterwards for being rude . </s>
+<s> They all came with him the following morning to each get one . </s>
+<s> Now that that 's over with , Sue is very excited to leave . </s>
+<s> Her baby was playing on the floor . </s>
+<s> Sue decided to stop at the bathroom . </s>
+<s> She told Bob that she loved how funny he was ! </s>
+<s> Her brother got sick , so Sue went alone . </s>
+<s> His son decided he should do the dishes next time . </s>
+<s> He called a few of his friends . </s>
+<s> Sue had only tennis shoes and it was too hot to wear them . </s>
+<s> Bob searched for a card he liked . </s>
+<s> She rushed to get dressed . </s>
+<s> But she didn 't want to tell Tami this . </s>
+<s> Sue felt left out since she couldn 't go . </s>
+<s> However , business wasn 't doing so well . </s>
+<s> He worked for months . </s>
+<s> She had practiced and practiced . </s>
+<s> Then Bob happily headed out to the party ! </s>
+<s> Sue was sad for the rest of the day . </s>
+<s> He decided to run everyday . </s>
+<s> He was so tired the next morning . </s>
+<s> Sue took swim lessons and practiced walking fast . </s>
+<s> They fast became best friends . </s>
+<s> Bob had to buy new work clothes often . </s>
+<s> She didn 't have a car of her own . </s>
+<s> Bob left , feeling much more confident . </s>
+<s> At first she panicked . </s>
+<s> Sue and Bob had a good time at the movies . </s>
+<s> Sue laughed . </s>
+<s> He did not want to go to school . </s>
+<s> He didn 't have enough money . </s>
+<s> But her grandma insisted she go to bed when she did . </s>
+<s> Her parents told her she would have to pay for it herself . </s>
+<s> Bob packed a basket of food and they had a great date . </s>
+<s> He always asked his mom to buy him some . </s>
+<s> Bob felt full . </s>
+<s> And she was quickly trying to get to her next class . </s>
+<s> Bob took him home but his parents made him put it back . </s>
+<s> Bob lost track of time because he was watching TV . </s>
+<s> Bob eventually quit football because he didn 't like it . </s>
+<s> When he got outside , his mom left . </s>
+<s> Sue stayed over last night so she could take Tina see the doctor . </s>
+<s> When he first got them , they were a real pain . </s>
+<s> All of a sudden car came speeding through and ran him over . </s>
+<s> That was the very first time Bob got to play basketball . </s>
+<s> Suddenly he tripped over a rock . </s>
+<s> His mom took note of this . </s>
+<s> Bob was so disappointed that he couldn 't play . </s>
+<s> He was nervous about it . </s>
+<s> Sue was confident that now she would make it through the night ! </s>
+<s> She made sure to get a bunch of great stuff . </s>
+<s> He looked everywhere for them . </s>
+<s> Eventually he had enough money for a trip . </s>
+<s> Bob knew he would never find her again . </s>
+<s> He worked as hard as he could for months . </s>
+<s> She was looking for a date too so she said yes ! </s>
+<s> Bob is staying home from work because he can 't move . </s>
+<s> He had gotten a parking ticket . </s>
+<s> On Saturday he was happy to stay home all day . </s>
+<s> Bob ate the apple and was happy . </s>
+<s> But Sue was scared . </s>
+<s> He felt as though he was on top of the world ! </s>
+<s> They walked together and Bob found it was nice outside . </s>
+<s> Bob 's father found him a few minutes later . </s>
+<s> Bob stayed in the hospital for one week until he felt better . </s>
+<s> She was shopping for some milk . </s>
+<s> She waited in a long line to get her ticket . </s>
+<s> Bob always ate on the couch . </s>
+<s> I was so happy that she said she would come . </s>
+<s> All of a sudden , a dog came out into the street . </s>
+<s> She looked through all her clothes . </s>
+<s> Bob is in a lot of trouble . </s>
+<s> Bob now works behind a desk at the fire department . </s>
+<s> Sue walked passed hoping to see her crush . </s>
+<s> He got into his car to drive to the library . </s>
+<s> Bob dressed up in his best clothes . </s>
+<s> After a year , Sue could play guitar very well . </s>
+<s> Bob told her that it would be a great vacation . </s>
+<s> Sue 's mother said that they would all have fun . </s>
+<s> One day , Bob let his dog out in the back yard . </s>
+<s> She decided not to go back . </s>
+<s> He saw that he had a flat tire . </s>
+<s> Sue was too full to eat her dinner that night . </s>
+<s> Sue didn 't go back to the fair for the rest of this year . </s>
+<s> He had ate a lot of candy earlier that day . </s>
+<s> She couldn 't tell what it was right away . </s>
+<s> Bob thought back to the music he listened to as a young man . </s>
+<s> Bob didn 't want to drive back . </s>
+<s> Sue and Tina ate lunch together , and became friends . </s>
+<s> He was planning on just looking around . </s>
+<s> Bob proposed to her at dinner . </s>
+<s> Sue asked her grandparents about their lives . </s>
+<s> She liked the job , but there weren 't enough hours . </s>
+<s> They want him to take over the family business . </s>
+<s> It was a nice day and he needed the fresh air . </s>
+<s> Bob won the race . </s>
+<s> Bob decided he would play with rocks . </s>
+<s> He goes to the same coffee place every single day . </s>
+<s> He didn 't want to go . </s>
+<s> But Bob 's dog stole everything from his plate . </s>
+<s> Sue took the medicine and she got lots of rest . </s>
+<s> Bob is now the most successful burger store in town . </s>
+<s> Bob was so glad his new boots worked . </s>
+<s> He decided to call his son into the room to help him . </s>
+<s> Bob turned them on and the house looked great . </s>
+<s> He was too poor . </s>
+<s> Bob learned everything he could about having a baby sister . </s>
+<s> Bob made breakfast for his mother in bed . </s>
+<s> He stopped the car so he wouldn 't hit the kitten . </s>
+<s> Suddenly a deer ran out in front of him . </s>
+<s> Sue told Bob she wanted to see other people . </s>
+<s> When he tried to do a cool basketball trick , he fell on the ground . </s>
+<s> He was the star player of his high school team . </s>
+<s> Sue went outside to get her phone and bring her cat in . </s>
+<s> When she got home , she was crying and yelled at Bob . </s>
+<s> She got drunk one night . </s>
+<s> She had to wait for a room to open up so she could change . </s>
+<s> Bob won and felt proud </s>
+<s> Bob and his dog were happy again . </s>
+<s> She was really cute and he couldn 't stop looking at her . </s>
+<s> He walked into their house and saw a toy train . </s>
+<s> He was able to find everything on the list . </s>
+<s> The went out in the boat in the pond . </s>
+<s> Her friend was annoyed . </s>
+<s> She said No . </s>
+<s> She had so much fun with them that she never wanted camp to end . </s>
+<s> She sat down in the chair and waited for the dentist . </s>
+<s> He asked his mother if he could play in the snow . </s>
+<s> Bob wouldn 't let them . </s>
+<s> He invited some friends . </s>
+<s> They attended the concert together . </s>
+<s> Finally he found one that was what he was looking for . </s>
+<s> Bob made the hard decision and dropped a couple classes . </s>
+<s> Bob suggested they start with five card draw . </s>
+<s> The kids ask Sue to take them there . </s>
+<s> He grew up there and there were no jobs . </s>
+<s> Bob won the hand but was afraid to say so . </s>
+<s> She looked up and saw the manager 's face . </s>
+<s> He tried to fix it at home . </s>
+<s> At first he liked it . </s>
+<s> Bob had to take the bus now . </s>
+<s> She learned that everything was going to be okay . </s>
+<s> Bob became scared . </s>
+<s> At the bar he drank more than he expected . </s>
+<s> He saw an accident down the road . </s>
+<s> May saw Sue 's sad face and felt bad for her . </s>
+<s> But soon he spoke , and his mom won the game ! </s>
+<s> She had to call a friend for help . </s>
+<s> But he could not afford them . </s>
+<s> He happily went home with only half his groceries ! </s>
+<s> She ended up getting an A and 20 dollars . </s>
+<s> Sue bought them and went home . </s>
+<s> Sue was really scared . </s>
+<s> His manager was Bob . </s>
+<s> She decided to surprise her husband with the news . </s>
+<s> Today , his computer broke and Bob learned a lesson . </s>
+<s> She was nervous but confident she could do it . </s>
+<s> Her glasses fell off her face to the ground . </s>
+<s> They were both sad about the move . </s>
+<s> She kept calling him up and he wouldn 't pick up . </s>
+<s> Bob started dating her . </s>
+<s> She decided to go to the store for milk . </s>
+<s> She got into her car to drive to work . </s>
+<s> They practiced every day and Bob even got a haircut . </s>
+<s> At night , his closet light was always turned on . </s>
+<s> She was playing with the other kids . </s>
+<s> Bob began to cry . </s>
+<s> Suddenly , the power cut off . </s>
+<s> She couldn 't drive out of her driveway . </s>
+<s> On his way his wallet slipped and fell out his pocket . </s>
+<s> She was happy it was finally over . </s>
+<s> Bob was very angry that he lost . </s>
+<s> He went to the glasses store in the mall . </s>
+<s> Her mother told her she was too young . </s>
+<s> She and her friend Sue talked on the phone all night to calm down . </s>
+<s> He wanted a new phone but didn 't know which one to get . </s>
+<s> Bob decided to call his friend and find out what happened . </s>
+<s> Sue accidentally brought her customer the wrong drink at dinner . </s>
+<s> Bob got his coffee without having to wait in the long line . </s>
+<s> Sue had to go to the store and get his money back . </s>
+<s> Bob then began to practice his song long into the night . </s>
+<s> He landed his first job in a long time . </s>
+<s> They played video games together everyday after school . </s>
+<s> Bob and his wife raise their son with care . </s>
+<s> He asked his little brother Bob to go . </s>
+<s> His classmates wouldn 't let him be on their team . </s>
+<s> She lived her parents and worked long hours . </s>
+<s> Sue laughed and couldn 't believe they remembered . </s>
+<s> He just needed a great idea </s>
+<s> Bob called his parents on the phone and told them he missed them . </s>
+<s> he did not know what to do . </s>
+<s> He is grateful to his father for his help . </s>
+<s> Bob often felt lonely , so he decided to get a pet . </s>
+<s> He felt like no one needed him . </s>
+<s> A year later Sue was happy and the doctor said her weight was good . </s>
+<s> He did not feel like playing with his toys . </s>
+<s> He went to the mall . </s>
+<s> She had to do the laundry . </s>
+<s> Bob went to the pet store . </s>
+<s> Bob beat his brother . </s>
+<s> In the evening Bob got drunk and a storm started . </s>
+<s> Bob worked hard to do his chores all week . </s>
+<s> Sue is very proud of herself . </s>
+<s> Bob 's brother offered to share his . </s>
+<s> He needed a hit . </s>
