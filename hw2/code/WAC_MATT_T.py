@@ -4,10 +4,10 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
-class WAC_ATT_T(nn.Module):
+class WAC_MATT_T(nn.Module):
 
-	def __init__(self, embedding_dim, hidden_dim,vocab_size, lam=0.1):
-		super(WAC_ATT_T, self).__init__()
+	def __init__(self, embedding_dim, hidden_dim,vocab_size):
+		super(WAC_MATT_T, self).__init__()
 		self.lam = lam
 		self.word_embeddings = nn.Embedding(vocab_size, embedding_dim)
 		embed_init = torch.rand(vocab_size, embedding_dim) ## unif[0,1]
@@ -31,7 +31,7 @@ class WAC_ATT_T(nn.Module):
 		## compute attention
 		embeds = self.word_embeddings(X) ## [bs, sentlen, embed]
 
-		## Run LSTM to get a thought vector
+		## Run LSTM to get a thought vector 
 		tv, _ = self.lstm(embeds.transpose(0,1)) ## need [sentlen, bs, embed]
 		tv = tv[mask2.transpose(0,1)].unsqueeze(1)
 		tv = tv / tv.sum(2, keepdim = True)
@@ -39,17 +39,32 @@ class WAC_ATT_T(nn.Module):
 		u = torch.unsqueeze(self.u,0)
 		u = torch.unsqueeze(u,0) ## now [1,1, embed]
 		u = u/u.sum(2, keepdim=True)
-		u = (1-lam)*u + lam*tv
+		#u = (1-lam)*u + lam*tv
 
-		sim = self.cosine(u, embeds)
-		sim = torch.mul(sim.exp(), mask.float())
-		
-		att = sim/ sim.sum(dim = 1, keepdim=True)
+
+		att1 = self.get_attention(tv, embeds, mask) ## sentence specific
+		att2 = self.get_attention(u, embeds, mask) ## global
+
+		# ## one attention
+		# sim = self.cosine(u, embeds)
+		# sim = torch.mul(sim.exp(), mask.float())
+		# att = sim/ sim.sum(dim = 1, keepdim=True)
+
 		#embeds_ave = torch.matmul(att, embeds)
-		embeds_ave = torch.mul(att.view(batch_size,-1,1), embeds).sum(dim = 1)
-		score = self.linear(embeds_ave)
+		embeds_ave1 = torch.mul(att1.view(batch_size,-1,1), embeds).sum(dim = 1)
+		embeds_ave2 = torch.mul(att2.view(batch_size,-1,1), embeds).sum(dim = 1)
+
+		score = self.linear(embeds_ave1 + embeds_ave2)
 		prob = self.score2prob(score)
 		return prob
+
+	def get_attention(self, u, embeds,mask):
+		## one attention
+		sim = self.cosine(u, embeds)
+		sim = torch.mul(sim.exp(), mask.float())
+		att = sim/ sim.sum(dim = 1, keepdim=True)
+		return att
+
 
 	def predict(self, data):
 		X,y,lens = data
@@ -97,10 +112,10 @@ HIDDEN_DIM = 100
 n_epoch = 20
 batch_size = 5000
 eval_per = 20000/batch_size
-PATH = "../model/wac_attt2.pt"
+PATH = "../model/wac_mattt.pt"
 
 ## define model
-model = WAC_ATT_T(EMBEDDING_DIM,HIDDEN_DIM, VOCAB_SIZE)
+model = WAC_MATT_T(EMBEDDING_DIM,HIDDEN_DIM, VOCAB_SIZE)
 optimizer = optim.Adagrad(model.parameters(), lr = 1e-2)
 
 
