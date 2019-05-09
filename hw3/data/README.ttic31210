@@ -1,0 +1,30 @@
+This README file accompanies this dataset release for a course assignment 
+which contains modified data from the Universal Dependencies project. 
+
+See README.md for the original README file supplied with the 
+Universal Dependencies English Web Treebank v2.3 release.
+The original data can be downloaded from https://universaldependencies.org/
+See README.md and LICENSE.txt for license information.
+
+Files:
+en_ewt.train - training data; contains 12,543 annotated sentences.
+en_ewt.dev - development data; contains 2,002 annotated sentences.
+
+The data files contain one token per line, where each line has the 
+format "word[TAB]tag". Blank lines indicate sentence boundaries.
+
+The words and fine-grained POS tags were kept from the original data. 
+All other fields have been removed. 
+
+I replaced approximately 3% of singleton words (i.e., words that appeared once 
+in the training data) with the word "UNKNOWN". In the development data, I
+replaced all words that were not in the training vocabulary with "UNKNOWN".
+
+The unpreprocessed data (if you want to see what the unknown words
+correspond to) is in the files ending in ".unproc".
+
+This release prepared by:
+Kevin Gimpel
+kgimpel@ttic.edu
+2/18/2019
+
