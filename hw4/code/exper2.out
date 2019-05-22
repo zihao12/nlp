@@ -1,0 +1,351 @@
+processing data
+##############################################################
+                            problem 1.d                       
+##############################################################
+Gibbs sampling with K = 2
+accuracy : 0.7776938369781312
+log prob : -182094.5222382033
+runtime  : 1.6591603755950928
+Gibbs sampling with K = 5
+accuracy : 0.8630616302186879
+log prob : -166691.17419806565
+runtime  : 6.205444097518921
+Gibbs sampling with K = 10
+accuracy : 0.8630616302186879
+log prob : -166567.85915418615
+runtime  : 13.631109714508057
+Gibbs sampling with K = 50
+accuracy : 0.8673956262425447
+log prob : -166290.01173962484
+runtime  : 73.42604351043701
+Gibbs sampling with K = 100
+accuracy : 0.8660039761431412
+log prob : -166424.60447603816
+runtime  : 148.6701216697693
+Gibbs sampling with K = 500
+accuracy : 0.8662027833001988
+log prob : -166448.057134429
+runtime  : 751.6947124004364
+Gibbs sampling with K = 1000
+accuracy : 0.8665606361829026
+log prob : -166428.10115245753
+runtime  : 1456.2925083637238
+##############################################################
+                            problem 1.e                       
+##############################################################
+##--------------------------##
+         beta = 0.5
+##--------------------------##
+Gibbs sampling with K = 2
+accuracy : 0.6339165009940357
+log prob : -224944.23690203376
+runtime  : 1.4824304580688477
+Gibbs sampling with K = 5
+accuracy : 0.7596421471172963
+log prob : -190808.66953725737
+runtime  : 5.585920333862305
+Gibbs sampling with K = 10
+accuracy : 0.7613121272365805
+log prob : -189674.8019444498
+runtime  : 12.37549901008606
+Gibbs sampling with K = 50
+accuracy : 0.7622266401590457
+log prob : -189671.61424953025
+runtime  : 67.00648808479309
+Gibbs sampling with K = 100
+accuracy : 0.7646520874751491
+log prob : -189178.4236731726
+runtime  : 134.73710465431213
+Gibbs sampling with K = 500
+accuracy : 0.7629025844930417
+log prob : -189445.70349682667
+runtime  : 680.4037184715271
+Gibbs sampling with K = 1000
+accuracy : 0.763141153081511
+log prob : -189630.1784961259
+runtime  : 1363.908586025238
+##--------------------------##
+         beta = 2
+##--------------------------##
+Gibbs sampling with K = 2
+accuracy : 0.7990854870775348
+log prob : -180006.48344576248
+runtime  : 1.5150878429412842
+Gibbs sampling with K = 5
+accuracy : 0.8751491053677932
+log prob : -164752.6507312596
+runtime  : 5.502761125564575
+Gibbs sampling with K = 10
+accuracy : 0.8798011928429423
+log prob : -164395.37860336836
+runtime  : 12.224936485290527
+Gibbs sampling with K = 50
+accuracy : 0.8816302186878727
+log prob : -164146.42027102533
+runtime  : 66.03721880912781
+Gibbs sampling with K = 100
+accuracy : 0.8829423459244533
+log prob : -164019.44044791342
+runtime  : 133.2814803123474
+Gibbs sampling with K = 500
+accuracy : 0.8836978131212724
+log prob : -163981.80998734417
+runtime  : 673.3065388202667
+Gibbs sampling with K = 1000
+accuracy : 0.8850497017892645
+log prob : -163908.7458772111
+runtime  : 1355.4068360328674
+##--------------------------##
+         beta = 5
+##--------------------------##
+Gibbs sampling with K = 2
+accuracy : 0.8027833001988072
+log prob : -179218.0286659597
+runtime  : 1.4738225936889648
+Gibbs sampling with K = 5
+accuracy : 0.8796421471172963
+log prob : -164219.2186183742
+runtime  : 5.565948724746704
+Gibbs sampling with K = 10
+accuracy : 0.8815904572564612
+log prob : -164029.05251461803
+runtime  : 12.232747316360474
+Gibbs sampling with K = 50
+accuracy : 0.8821471172962226
+log prob : -163926.82559730567
+runtime  : 66.05339646339417
+Gibbs sampling with K = 100
+accuracy : 0.884572564612326
+log prob : -163783.96627850767
+runtime  : 133.58586812019348
+Gibbs sampling with K = 500
+accuracy : 0.8847316103379722
+log prob : -163752.7453118304
+runtime  : 675.1857056617737
+Gibbs sampling with K = 1000
+accuracy : 0.8868787276341948
+log prob : -163625.34984838482
+runtime  : 1353.0155549049377
+##############################################################
+                            problem 1.f                       
+##############################################################
+##--------------------------##
+         beta = 0.5; annealing = 0.1
+##--------------------------##
+Gibbs sampling with K = 2
+accuracy : 0.5191650099403579
+log prob : -262075.5936960379
+runtime  : 1.4369101524353027
+Gibbs sampling with K = 5
+accuracy : 0.827634194831014
+log prob : -172901.5193117445
+runtime  : 5.450735092163086
+Gibbs sampling with K = 10
+accuracy : 0.8705765407554672
+log prob : -165470.42591498836
+runtime  : 12.129923582077026
+Gibbs sampling with K = 50
+accuracy : 0.8885089463220676
+log prob : -163479.61485211374
+runtime  : 65.38432598114014
+Gibbs sampling with K = 100
+accuracy : 0.8895029821073559
+log prob : -163399.19420681676
+runtime  : 132.27993512153625
+Gibbs sampling with K = 500
+accuracy : 0.8782107355864811
+log prob : -166909.02516118082
+runtime  : 669.4630539417267
+Gibbs sampling with K = 1000
+accuracy : 0.46560636182902587
+log prob : -279410.0239195132
+runtime  : 1370.4004926681519
+##--------------------------##
+         beta = 2; annealing = 0.1
+##--------------------------##
+Gibbs sampling with K = 2
+accuracy : 0.7974552683896621
+log prob : -180331.46513655529
+runtime  : 1.4511909484863281
+Gibbs sampling with K = 5
+accuracy : 0.877375745526839
+log prob : -164516.0749134768
+runtime  : 5.445613622665405
+Gibbs sampling with K = 10
+accuracy : 0.8798807157057654
+log prob : -164058.47440396465
+runtime  : 12.03022575378418
+Gibbs sampling with K = 50
+accuracy : 0.8862027833001989
+log prob : -163740.3841471346
+runtime  : 65.51508164405823
+Gibbs sampling with K = 100
+accuracy : 0.8878727634194831
+log prob : -163608.92148804938
+runtime  : 131.49381184577942
+Gibbs sampling with K = 500
+accuracy : 0.8680318091451292
+log prob : -168676.9184725374
+runtime  : 670.2766492366791
+Gibbs sampling with K = 1000
+accuracy : 0.46071570576540755
+log prob : -281179.40811966395
+runtime  : 1369.6675388813019
+##--------------------------##
+         beta = 5; annealing = 0.1
+##--------------------------##
+Gibbs sampling with K = 2
+accuracy : 0.8004771371769384
+log prob : -179210.85456050784
+runtime  : 1.4660866260528564
+Gibbs sampling with K = 5
+accuracy : 0.8793638170974155
+log prob : -164213.65291504582
+runtime  : 5.485175848007202
+Gibbs sampling with K = 10
+accuracy : 0.8842147117296223
+log prob : -164003.5274116602
+runtime  : 12.194568395614624
+Gibbs sampling with K = 50
+accuracy : 0.8839761431411531
+log prob : -163900.5622644201
+runtime  : 65.46207404136658
+Gibbs sampling with K = 100
+accuracy : 0.8837773359840955
+log prob : -163901.78411183308
+runtime  : 132.33640837669373
+Gibbs sampling with K = 500
+accuracy : 0.851013916500994
+log prob : -172900.29747839295
+runtime  : 667.4461328983307
+Gibbs sampling with K = 1000
+accuracy : 0.41634194831013915
+log prob : -294271.9968811073
+runtime  : 1375.525331735611
+##############################################################
+                            problem 2.c                       
+##############################################################
+##--------------------------##
+         beta = 0.5
+##--------------------------##
+K        : 2
+accuracy : 0.3163419483101392
+log prob : -1157197.5272731273
+runtime  : 1.989304542541504
+K        : 5
+accuracy : 0.8078330019880716
+log prob : -180995.53770981164
+runtime  : 6.325254201889038
+K        : 10
+accuracy : 0.8570974155069583
+log prob : -168345.3442688305
+runtime  : 13.4186270236969
+K        : 50
+accuracy : 0.8823856858846918
+log prob : -164734.84850104808
+runtime  : 70.55221056938171
+K        : 100
+accuracy : 0.8875944333996024
+log prob : -164309.0955444028
+runtime  : 141.37420654296875
+K        : 500
+accuracy : 0.8910536779324055
+log prob : -164076.32637041467
+runtime  : 716.1187319755554
+K        : 1000
+accuracy : 0.8915705765407554
+log prob : -164017.4188095878
+runtime  : 1432.1881394386292
+##--------------------------##
+         beta = 2
+##--------------------------##
+K        : 2
+accuracy : 0.40429423459244535
+log prob : -1101494.116404158
+runtime  : 1.9969172477722168
+K        : 5
+accuracy : 0.8717693836978131
+log prob : -165491.16856301625
+runtime  : 6.2345051765441895
+K        : 10
+accuracy : 0.8815904572564612
+log prob : -164113.2841798449
+runtime  : 13.22982931137085
+K        : 50
+accuracy : 0.8871570576540756
+log prob : -163633.08497503755
+runtime  : 68.63587284088135
+K        : 100
+accuracy : 0.8888667992047714
+log prob : -163515.61068239843
+runtime  : 138.49313616752625
+K        : 500
+accuracy : 0.8910934393638171
+log prob : -163375.63056982553
+runtime  : 697.5614213943481
+K        : 1000
+accuracy : 0.8920477137176939
+log prob : -163386.15024204995
+runtime  : 1400.6114835739136
+##--------------------------##
+         beta = 5
+##--------------------------##
+K        : 2
+accuracy : 0.40791252485089463
+log prob : -1117309.4865776428
+runtime  : 1.9904820919036865
+K        : 5
+accuracy : 0.8750298210735586
+log prob : -165236.58182060218
+runtime  : 6.21371603012085
+K        : 10
+accuracy : 0.8815109343936381
+log prob : -164089.50304451058
+runtime  : 13.17298173904419
+K        : 50
+accuracy : 0.8843737574552684
+log prob : -163854.2080290095
+runtime  : 68.67395901679993
+K        : 100
+accuracy : 0.8858846918489066
+log prob : -163727.73787986962
+runtime  : 137.88946223258972
+K        : 500
+accuracy : 0.8880318091451292
+log prob : -163637.43128633976
+runtime  : 697.4820296764374
+K        : 1000
+accuracy : 0.8873558648111332
+log prob : -163644.23439107422
+runtime  : 1395.5335092544556
+##--------------------------##
+         beta = 10
+##--------------------------##
+K        : 2
+accuracy : 0.41025844930417493
+log prob : -1068230.6272761736
+runtime  : 1.9899675846099854
+K        : 5
+accuracy : 0.8729622266401591
+log prob : -165284.81808200318
+runtime  : 6.189286947250366
+K        : 10
+accuracy : 0.8820675944333995
+log prob : -164135.65939045185
+runtime  : 13.17772388458252
+K        : 50
+accuracy : 0.8808349900596422
+log prob : -164071.81252630055
+runtime  : 68.62186980247498
+K        : 100
+accuracy : 0.8837773359840955
+log prob : -163984.5804405967
+runtime  : 138.34226274490356
+K        : 500
+accuracy : 0.8843339960238569
+log prob : -163913.06746512026
+runtime  : 695.216867685318
+K        : 1000
+accuracy : 0.8862823061630218
+log prob : -163827.73597185622
+runtime  : 1396.197943687439
