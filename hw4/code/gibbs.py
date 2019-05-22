@@ -1,5 +1,7 @@
 ## implement gibbs sampling
 import numpy as np
+from scipy import stats
+
 # implement gibbs sampling for one sentence
 # input: sentence (word); K (number of samples); 
 # output: samples from posterior 
@@ -42,6 +44,35 @@ def gibbs_predictor(corpus, em_prob, trans_prob, tag2ix, word2ix,ix2tag, K = 10,
 		tags_pred.append(tags)
 		n_changes_corpus.append(n_changes)
 	return (tags_pred, n_changes_corpus)
+
+
+def mbr_predictor(corpus, em_prob, trans_prob, tag2ix, word2ix,ix2tag, K = 10, beta = 1,annealing = 0):
+	tags_pred = []
+	for sent in corpus:
+		(posterior, _) = gibbs(sent, em_prob, trans_prob, tag2ix, word2ix, \
+			K, beta = beta,annealing = annealing)
+		tags = stats.mode(posterior, axis = 0).mode[0]
+		tags = [ix2tag[t] for t in tags]
+		tags_pred.append(tags)
+	return tags_pred
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
