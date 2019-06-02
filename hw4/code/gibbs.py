@@ -5,7 +5,7 @@ from scipy import stats
 # implement gibbs sampling for one sentence
 # input: sentence (word); K (number of samples); 
 # output: samples from posterior 
-def gibbs(sent, em_prob, trans_prob, tag2ix, word2ix, K, beta, annealing):
+def gibbs(sent, em_prob, trans_prob, tag2ix, word2ix, K, beta, annealing, cap):
 	T = len(sent) + 2 ## including <s> and </s>
 	posterior = []
 	n_changes = []
@@ -15,7 +15,7 @@ def gibbs(sent, em_prob, trans_prob, tag2ix, word2ix, K, beta, annealing):
 	posterior.append(state[1:-1])
 	## iters of gibbs
 	for i in range(K-1):
-		beta_ = beta + (i-1)*annealing
+		beta_ = max(beta + (i-1)*annealing, cap) ## beta_ cannot go beyond our cap
 		n_change = 0
 		for j in range(1,T-1): 
 			probs_log = beta_*np.log(trans_prob[state[j-1],:]) + \
@@ -33,12 +33,12 @@ def gibbs(sent, em_prob, trans_prob, tag2ix, word2ix, K, beta, annealing):
 
 	return (posterior, n_changes)
 
-def gibbs_predictor(corpus, em_prob, trans_prob, tag2ix, word2ix,ix2tag, K = 10, beta = 1, annealing = 0):
+def gibbs_predictor(corpus, em_prob, trans_prob, tag2ix, word2ix,ix2tag, K = 10, beta = 1, annealing = 0, cap = 1e+10):
 	tags_pred = []
 	n_changes_corpus = []
 	for sent in corpus:
 		(posterior, n_changes) = gibbs(sent, em_prob, trans_prob, tag2ix, word2ix, \
-			K, beta = beta,annealing = annealing)
+			K, beta = beta,annealing = annealing, cap = cap)
 		tags = posterior[-1,:]
 		tags = [ix2tag[t] for t in tags]
 		tags_pred.append(tags)

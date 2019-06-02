@@ -10,7 +10,7 @@ import sys
 from gibbs import gibbs, gibbs_predictor, mbr_predictor
 from data_pre import data_preprocessing
 from misc import compute_prob_log,compute_tag_acc
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 
 
@@ -20,39 +20,39 @@ em_prob[em_prob == 0] = sys.float_info.min
 trans_prob[trans_prob == 0] = sys.float_info.min
 (corpus, tags) = data_dev
 
-print("##############################################################")
-print("                            problem 1.d                       ")
-print("##############################################################")
-Ks = [2,5,10,50,100,500,1000]
-#Ks = [2,5,10]
-for K in Ks:
-    start = time.time()
-    (tags_pred, _) = gibbs_predictor(corpus, em_prob, trans_prob, tag2ix, word2ix,ix2tag, K=K)   
-    runtime = time.time() - start
-    print("Gibbs sampling with K = {}".format(K))
-    print("accuracy : {}".format(compute_tag_acc(tags_pred, tags)))
-    print("log prob : {}".format(compute_prob_log(corpus, tags_pred, trans_prob, em_prob, word2ix, tag2ix)))
-    print("runtime  : {}".format(runtime))
+# print("##############################################################")
+# print("                            problem 1.d                       ")
+# print("##############################################################")
+# Ks = [2,5,10,50,100,500,1000]
+# #Ks = [2,5,10]
+# for K in Ks:
+#     start = time.time()
+#     (tags_pred, _) = gibbs_predictor(corpus, em_prob, trans_prob, tag2ix, word2ix,ix2tag, K=K)   
+#     runtime = time.time() - start
+#     print("Gibbs sampling with K = {}".format(K))
+#     print("accuracy : {}".format(compute_tag_acc(tags_pred, tags)))
+#     print("log prob : {}".format(compute_prob_log(corpus, tags_pred, trans_prob, em_prob, word2ix, tag2ix)))
+#     print("runtime  : {}".format(runtime))
 
 
-print("##############################################################")
-print("                            problem 1.e                       ")
-print("##############################################################")
-Ks = [2,5,10,50,100,500,1000]
-betas = [0.5,2,5]
-#Ks = [2,5,10]
-for beta in betas:
-    print("##--------------------------##")
-    print("         beta = {}".format(beta))
-    print("##--------------------------##")
-    for K in Ks:
-        start = time.time()
-        (tags_pred, _) = gibbs_predictor(corpus, em_prob, trans_prob, tag2ix, word2ix,ix2tag, K=K, beta = beta)   
-        runtime = time.time() - start
-        print("Gibbs sampling with K = {}".format(K))
-        print("accuracy : {}".format(compute_tag_acc(tags_pred, tags)))
-        print("log prob : {}".format(compute_prob_log(corpus, tags_pred, trans_prob, em_prob, word2ix, tag2ix)))
-        print("runtime  : {}".format(runtime))
+# print("##############################################################")
+# print("                            problem 1.e                       ")
+# print("##############################################################")
+# Ks = [2,5,10,50,100,500,1000]
+# betas = [0.5,2,5]
+# #Ks = [2,5,10]
+# for beta in betas:
+#     print("##--------------------------##")
+#     print("         beta = {}".format(beta))
+#     print("##--------------------------##")
+#     for K in Ks:
+#         start = time.time()
+#         (tags_pred, _) = gibbs_predictor(corpus, em_prob, trans_prob, tag2ix, word2ix,ix2tag, K=K, beta = beta)   
+#         runtime = time.time() - start
+#         print("Gibbs sampling with K = {}".format(K))
+#         print("accuracy : {}".format(compute_tag_acc(tags_pred, tags)))
+#         print("log prob : {}".format(compute_prob_log(corpus, tags_pred, trans_prob, em_prob, word2ix, tag2ix)))
+#         print("runtime  : {}".format(runtime))
 
 
 print("##############################################################")
@@ -61,7 +61,8 @@ print("##############################################################")
 
 Ks = [2,5,10,50,100,500,1000]
 annealing = 0.1
-betas = [0.5,2,5]
+betas = [0.5,1,2,5]
+
 #Ks = [2,5,10]
 for beta in betas:
     print("##--------------------------##")
@@ -70,7 +71,7 @@ for beta in betas:
     for K in Ks:
         start = time.time()
         (tags_pred, _) = gibbs_predictor(corpus, em_prob, trans_prob, tag2ix, word2ix,ix2tag, 
-                                         K=K, beta = beta, annealing = annealing)   
+                                         K=K, beta = beta, annealing = annealing, cap = 6)   
         runtime = time.time() - start
         print("Gibbs sampling with K = {}".format(K))
         print("accuracy : {}".format(compute_tag_acc(tags_pred, tags)))
@@ -84,7 +85,8 @@ print("##############################################################")
 
 #(corpus, tags) = data_dev
 Ks = [2,5,10,50,100,500,1000]
-betas = [0.5,2,5,10]
+# betas = [0.5,2,5,10]
+betas = [1]
 annealing = 0
 
 for beta in betas:
