@@ -50,7 +50,7 @@ def mbr_predictor(corpus, em_prob, trans_prob, tag2ix, word2ix,ix2tag, K = 10, b
 	tags_pred = []
 	for sent in corpus:
 		(posterior, _) = gibbs(sent, em_prob, trans_prob, tag2ix, word2ix, \
-			K, beta = beta,annealing = annealing)
+			K, beta = beta,annealing = annealing, cap = 1e+10)
 		tags = stats.mode(posterior, axis = 0).mode[0]
 		tags = [ix2tag[t] for t in tags]
 		tags_pred.append(tags)
