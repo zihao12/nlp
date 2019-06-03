@@ -55,28 +55,28 @@ trans_prob[trans_prob == 0] = sys.float_info.min
 #         print("runtime  : {}".format(runtime))
 
 
-# print("##############################################################")
-# print("                            problem 1.f                       ")
-# print("##############################################################")
+print("##############################################################")
+print("                            problem 1.f                       ")
+print("##############################################################")
 
-# Ks = [2,5,10,50,100,500, 1000]
-# annealing = 0.1
-# beta = 0.1
-# caps = [5,10,20,100,500, 1e+10]
-# #Ks = [2,5,10]
-# for cap in caps:
-#     print("##--------------------------##")
-#     print("         beta = {}; cap = {}; annealing = {}".format(beta,cap,annealing))
-#     print("##--------------------------##")
-#     for K in Ks:
-#         start = time.time()
-#         (tags_pred, _) = gibbs_predictor(corpus, em_prob, trans_prob, tag2ix, word2ix,ix2tag, 
-#                                          K=K, beta = beta, annealing = annealing, cap = cap)   
-#         runtime = time.time() - start
-#         print("Gibbs sampling with K = {}".format(K))
-#         print("accuracy : {}".format(compute_tag_acc(tags_pred, tags)))
-#         print("log prob : {}".format(compute_prob_log(corpus, tags_pred, trans_prob, em_prob, word2ix, tag2ix)))
-#         print("runtime  : {}".format(runtime))
+Ks = [2,5,10,50,100,500, 1000]
+annealing = 0.1
+beta = 0.1
+caps = [5,10,20,100]
+#Ks = [2,5,10]
+for cap in caps:
+    print("##--------------------------##")
+    print("         beta = {}; cap = {}; annealing = {}".format(beta,cap,annealing))
+    print("##--------------------------##")
+    for K in Ks:
+        start = time.time()
+        (tags_pred, _) = gibbs_predictor(corpus, em_prob, trans_prob, tag2ix, word2ix,ix2tag, 
+                                         K=K, beta = beta, annealing = annealing, cap = cap)   
+        runtime = time.time() - start
+        print("Gibbs sampling with K = {}".format(K))
+        print("accuracy : {}".format(compute_tag_acc(tags_pred, tags)))
+        print("log prob : {}".format(compute_prob_log(corpus, tags_pred, trans_prob, em_prob, word2ix, tag2ix)))
+        print("runtime  : {}".format(runtime))
 
 
 print("##############################################################")

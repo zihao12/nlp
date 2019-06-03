@@ -15,7 +15,7 @@ def gibbs(sent, em_prob, trans_prob, tag2ix, word2ix, K, beta, annealing, cap):
 	posterior.append(state[1:-1])
 	## iters of gibbs
 	for i in range(K-1):
-		beta_ = max(beta + (i-1)*annealing, cap) ## beta_ cannot go beyond our cap
+		beta_ = min(beta + (i-1)*annealing, cap) ## beta_ cannot go beyond our cap
 		n_change = 0
 		for j in range(1,T-1): 
 			probs_log = beta_*np.log(trans_prob[state[j-1],:]) + \
