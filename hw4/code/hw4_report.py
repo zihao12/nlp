@@ -59,19 +59,19 @@ print("##############################################################")
 print("                            problem 1.f                       ")
 print("##############################################################")
 
-Ks = [2,5,10,50,100,500,1000]
+Ks = [2,5,10,50,100,500, 1000]
 annealing = 0.1
-betas = [0.5,1,2,5]
-
+beta = 0.1
+caps = [5,10,20,100,500, 1e+10]
 #Ks = [2,5,10]
-for beta in betas:
+for cap in caps:
     print("##--------------------------##")
-    print("         beta = {}; annealing = {}".format(beta,annealing))
+    print("         beta = {}; cap = {}; annealing = {}".format(beta,cap,annealing))
     print("##--------------------------##")
     for K in Ks:
         start = time.time()
         (tags_pred, _) = gibbs_predictor(corpus, em_prob, trans_prob, tag2ix, word2ix,ix2tag, 
-                                         K=K, beta = beta, annealing = annealing, cap = 6)   
+                                         K=K, beta = beta, annealing = annealing, cap = cap)   
         runtime = time.time() - start
         print("Gibbs sampling with K = {}".format(K))
         print("accuracy : {}".format(compute_tag_acc(tags_pred, tags)))

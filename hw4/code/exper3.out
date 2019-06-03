@@ -1,0 +1,196 @@
+processing data
+##############################################################
+                            problem 1.f                       
+##############################################################
+##--------------------------##
+         beta = 0.1; cap = 5; annealing = 0.1
+##--------------------------##
+Gibbs sampling with K = 2
+accuracy : 0.7961829025844931
+log prob : -181807.6334554796
+runtime  : 1.5130650997161865
+Gibbs sampling with K = 5
+accuracy : 0.8782902584493042
+log prob : -164294.22249956385
+runtime  : 5.677747011184692
+Gibbs sampling with K = 10
+accuracy : 0.8824254473161034
+log prob : -164066.69801012555
+runtime  : 12.57761001586914
+Gibbs sampling with K = 50
+accuracy : 0.883817097415507
+log prob : -163817.08888763268
+runtime  : 67.66719961166382
+Gibbs sampling with K = 100
+accuracy : 0.8857256461232604
+log prob : -163784.33751856265
+runtime  : 136.1070249080658
+Gibbs sampling with K = 500
+accuracy : 0.867713717693837
+log prob : -170069.45424968752
+runtime  : 686.0876986980438
+Gibbs sampling with K = 1000
+accuracy : 0.17499005964214712
+log prob : -434777.60122629494
+runtime  : 1421.3390140533447
+##--------------------------##
+         beta = 0.1; cap = 10; annealing = 0.1
+##--------------------------##
+Gibbs sampling with K = 2
+accuracy : 0.8
+log prob : -180823.0468417354
+runtime  : 1.508185863494873
+Gibbs sampling with K = 5
+accuracy : 0.879324055666004
+log prob : -164225.40872094652
+runtime  : 5.659608602523804
+Gibbs sampling with K = 10
+accuracy : 0.8817495029821073
+log prob : -164115.95118348725
+runtime  : 12.522691488265991
+Gibbs sampling with K = 50
+accuracy : 0.8817097415506958
+log prob : -164060.3439088482
+runtime  : 67.68111109733582
+Gibbs sampling with K = 100
+accuracy : 0.8836580516898608
+log prob : -163895.9030150353
+runtime  : 136.87927842140198
+Gibbs sampling with K = 500
+accuracy : 0.8650497017892644
+log prob : -170254.03596203696
+runtime  : 687.0933663845062
+Gibbs sampling with K = 1000
+accuracy : 0.17499005964214712
+log prob : -434777.60122629494
+runtime  : 1422.4013235569
+##--------------------------##
+         beta = 0.1; cap = 20; annealing = 0.1
+##--------------------------##
+Gibbs sampling with K = 2
+accuracy : 0.8000397614314115
+log prob : -179959.3693986574
+runtime  : 1.5152225494384766
+Gibbs sampling with K = 5
+accuracy : 0.8798807157057654
+log prob : -164140.87189940258
+runtime  : 5.646190881729126
+Gibbs sampling with K = 10
+accuracy : 0.8807157057654076
+log prob : -164142.16690729847
+runtime  : 12.55072283744812
+Gibbs sampling with K = 50
+accuracy : 0.8813121272365805
+log prob : -164092.66718199276
+runtime  : 67.64070630073547
+Gibbs sampling with K = 100
+accuracy : 0.8805566600397614
+log prob : -164106.0683022868
+runtime  : 136.9168484210968
+Gibbs sampling with K = 500
+accuracy : 0.8642147117296223
+log prob : -170277.5882521816
+runtime  : 688.0161473751068
+Gibbs sampling with K = 1000
+accuracy : 0.17518886679920478
+log prob : -434717.2169357607
+runtime  : 1422.6610984802246
+##--------------------------##
+         beta = 0.1; cap = 100; annealing = 0.1
+##--------------------------##
+Gibbs sampling with K = 2
+accuracy : 0.11153081510934394
+log prob : -465465.30452179164
+runtime  : 1.6655066013336182
+Gibbs sampling with K = 5
+accuracy : 0.14147117296222664
+log prob : -449856.77922576386
+runtime  : 6.289269685745239
+Gibbs sampling with K = 10
+accuracy : 0.14099403578528827
+log prob : -450104.36795152293
+runtime  : 13.939470529556274
+Gibbs sampling with K = 50
+accuracy : 0.141272365805169
+log prob : -449946.8857728038
+runtime  : 75.34498000144958
+Gibbs sampling with K = 100
+accuracy : 0.1416699801192843
+log prob : -449788.2576157549
+runtime  : 152.1451518535614
+Gibbs sampling with K = 500
+accuracy : 0.14186878727634195
+log prob : -449664.64408616046
+runtime  : 769.3446793556213
+Gibbs sampling with K = 1000
+accuracy : 0.14039761431411532
+log prob : -450333.90283792
+runtime  : 1544.160679101944
+##--------------------------##
+         beta = 0.1; cap = 500; annealing = 0.1
+##--------------------------##
+Gibbs sampling with K = 2
+accuracy : 0.020675944333996023
+log prob : -520185.54604786873
+runtime  : 1.6891193389892578
+Gibbs sampling with K = 5
+accuracy : 0.020675944333996023
+log prob : -520185.54604786873
+runtime  : 6.3501081466674805
+Gibbs sampling with K = 10
+accuracy : 0.020675944333996023
+log prob : -520185.54604786873
+runtime  : 14.084397554397583
+Gibbs sampling with K = 50
+accuracy : 0.020675944333996023
+log prob : -520185.54604786873
+runtime  : 76.20133423805237
+Gibbs sampling with K = 100
+accuracy : 0.020675944333996023
+log prob : -520185.54604786873
+runtime  : 153.9886794090271
+Gibbs sampling with K = 500
+accuracy : 0.020675944333996023
+log prob : -520185.54604786873
+runtime  : 777.471186876297
+Gibbs sampling with K = 1000
+accuracy : 0.020675944333996023
+log prob : -520185.54604786873
+runtime  : 1561.7215926647186
+##--------------------------##
+         beta = 0.1; cap = 10000000000.0; annealing = 0.1
+##--------------------------##
+Gibbs sampling with K = 2
+accuracy : 0.020675944333996023
+log prob : -520185.54604786873
+runtime  : 1.6699120998382568
+Gibbs sampling with K = 5
+accuracy : 0.020675944333996023
+log prob : -520185.54604786873
+runtime  : 6.295660972595215
+Gibbs sampling with K = 10
+accuracy : 0.020675944333996023
+log prob : -520185.54604786873
+runtime  : 13.97018551826477
+Gibbs sampling with K = 50
+accuracy : 0.020675944333996023
+log prob : -520185.54604786873
+runtime  : 75.55661630630493
+Gibbs sampling with K = 100
+accuracy : 0.020675944333996023
+log prob : -520185.54604786873
+runtime  : 152.7008376121521
+Gibbs sampling with K = 500
+accuracy : 0.020675944333996023
+log prob : -520185.54604786873
+runtime  : 770.7701423168182
+Gibbs sampling with K = 1000
+accuracy : 0.020675944333996023
+log prob : -520185.54604786873
+runtime  : 1549.956744670868
+##############################################################
+                            problem 2.c                       
+##############################################################
+##--------------------------##
+         beta = 1
+##--------------------------##
