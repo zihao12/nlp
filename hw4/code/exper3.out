@@ -6,191 +6,157 @@ processing data
          beta = 0.1; cap = 5; annealing = 0.1
 ##--------------------------##
 Gibbs sampling with K = 2
-accuracy : 0.7961829025844931
-log prob : -181807.6334554796
-runtime  : 1.5130650997161865
+accuracy : 0.019125248508946324
+log prob : -1853046.9761165841
+runtime  : 1.4414548873901367
 Gibbs sampling with K = 5
-accuracy : 0.8782902584493042
-log prob : -164294.22249956385
-runtime  : 5.677747011184692
+accuracy : 0.3889065606361829
+log prob : -313517.95430476085
+runtime  : 5.513686656951904
 Gibbs sampling with K = 10
-accuracy : 0.8824254473161034
-log prob : -164066.69801012555
-runtime  : 12.57761001586914
+accuracy : 0.8483499005964215
+log prob : -169562.0827754627
+runtime  : 12.416905164718628
 Gibbs sampling with K = 50
-accuracy : 0.883817097415507
-log prob : -163817.08888763268
-runtime  : 67.66719961166382
+accuracy : 0.8899403578528827
+log prob : -163439.87908935896
+runtime  : 67.15498924255371
 Gibbs sampling with K = 100
-accuracy : 0.8857256461232604
-log prob : -163784.33751856265
-runtime  : 136.1070249080658
+accuracy : 0.8886679920477137
+log prob : -163460.373526618
+runtime  : 136.47705245018005
 Gibbs sampling with K = 500
-accuracy : 0.867713717693837
-log prob : -170069.45424968752
-runtime  : 686.0876986980438
+accuracy : 0.8898608349900596
+log prob : -163454.15970695065
+runtime  : 692.5859632492065
 Gibbs sampling with K = 1000
-accuracy : 0.17499005964214712
-log prob : -434777.60122629494
-runtime  : 1421.3390140533447
+accuracy : 0.8906560636182903
+log prob : -163411.58301192042
+runtime  : 1390.0428631305695
 ##--------------------------##
          beta = 0.1; cap = 10; annealing = 0.1
 ##--------------------------##
 Gibbs sampling with K = 2
-accuracy : 0.8
-log prob : -180823.0468417354
-runtime  : 1.508185863494873
+accuracy : 0.019840954274353877
+log prob : -1904735.150570444
+runtime  : 1.437281608581543
 Gibbs sampling with K = 5
-accuracy : 0.879324055666004
-log prob : -164225.40872094652
-runtime  : 5.659608602523804
+accuracy : 0.3910536779324056
+log prob : -312448.55656283
+runtime  : 5.499540328979492
 Gibbs sampling with K = 10
-accuracy : 0.8817495029821073
-log prob : -164115.95118348725
-runtime  : 12.522691488265991
+accuracy : 0.847196819085487
+log prob : -169519.3544670863
+runtime  : 12.372516393661499
 Gibbs sampling with K = 50
-accuracy : 0.8817097415506958
-log prob : -164060.3439088482
-runtime  : 67.68111109733582
+accuracy : 0.8888270377733598
+log prob : -163453.708112096
+runtime  : 67.16635727882385
 Gibbs sampling with K = 100
-accuracy : 0.8836580516898608
-log prob : -163895.9030150353
-runtime  : 136.87927842140198
+accuracy : 0.8894632206759443
+log prob : -163388.29084649505
+runtime  : 135.66566705703735
 Gibbs sampling with K = 500
-accuracy : 0.8650497017892644
-log prob : -170254.03596203696
-runtime  : 687.0933663845062
+accuracy : 0.8898210735586481
+log prob : -163387.92795685338
+runtime  : 691.041622877121
 Gibbs sampling with K = 1000
-accuracy : 0.17499005964214712
-log prob : -434777.60122629494
-runtime  : 1422.4013235569
+accuracy : 0.8910536779324055
+log prob : -163379.90033560852
+runtime  : 1388.4118859767914
 ##--------------------------##
          beta = 0.1; cap = 20; annealing = 0.1
 ##--------------------------##
 Gibbs sampling with K = 2
-accuracy : 0.8000397614314115
-log prob : -179959.3693986574
-runtime  : 1.5152225494384766
+accuracy : 0.019165009940357854
+log prob : -1939250.118370905
+runtime  : 1.4346129894256592
 Gibbs sampling with K = 5
-accuracy : 0.8798807157057654
-log prob : -164140.87189940258
-runtime  : 5.646190881729126
+accuracy : 0.3951888667992048
+log prob : -311397.0808358331
+runtime  : 5.505060434341431
 Gibbs sampling with K = 10
-accuracy : 0.8807157057654076
-log prob : -164142.16690729847
-runtime  : 12.55072283744812
+accuracy : 0.8468787276341948
+log prob : -169616.2551744177
+runtime  : 12.37378740310669
 Gibbs sampling with K = 50
-accuracy : 0.8813121272365805
-log prob : -164092.66718199276
-runtime  : 67.64070630073547
+accuracy : 0.8879125248508947
+log prob : -163487.1764053172
+runtime  : 67.21862983703613
 Gibbs sampling with K = 100
-accuracy : 0.8805566600397614
-log prob : -164106.0683022868
-runtime  : 136.9168484210968
+accuracy : 0.8908151093439364
+log prob : -163358.58688320787
+runtime  : 135.64083766937256
 Gibbs sampling with K = 500
-accuracy : 0.8642147117296223
-log prob : -170277.5882521816
-runtime  : 688.0161473751068
+accuracy : 0.8899403578528827
+log prob : -163387.22328759558
+runtime  : 689.7749490737915
 Gibbs sampling with K = 1000
-accuracy : 0.17518886679920478
-log prob : -434717.2169357607
-runtime  : 1422.6610984802246
+accuracy : 0.8905367793240556
+log prob : -163371.0516708249
+runtime  : 1386.350465297699
 ##--------------------------##
          beta = 0.1; cap = 100; annealing = 0.1
 ##--------------------------##
 Gibbs sampling with K = 2
-accuracy : 0.11153081510934394
-log prob : -465465.30452179164
-runtime  : 1.6655066013336182
+accuracy : 0.019642147117296224
+log prob : -1968835.9106066842
+runtime  : 1.435365915298462
 Gibbs sampling with K = 5
-accuracy : 0.14147117296222664
-log prob : -449856.77922576386
-runtime  : 6.289269685745239
+accuracy : 0.3932803180914513
+log prob : -311310.4384097622
+runtime  : 5.501718044281006
 Gibbs sampling with K = 10
-accuracy : 0.14099403578528827
-log prob : -450104.36795152293
-runtime  : 13.939470529556274
+accuracy : 0.8460834990059642
+log prob : -169426.55139807326
+runtime  : 12.349902153015137
 Gibbs sampling with K = 50
-accuracy : 0.141272365805169
-log prob : -449946.8857728038
-runtime  : 75.34498000144958
+accuracy : 0.8881908548707753
+log prob : -163498.26724638537
+runtime  : 67.07149171829224
 Gibbs sampling with K = 100
-accuracy : 0.1416699801192843
-log prob : -449788.2576157549
-runtime  : 152.1451518535614
+accuracy : 0.8900198807157058
+log prob : -163392.31438202105
+runtime  : 135.69325733184814
 Gibbs sampling with K = 500
-accuracy : 0.14186878727634195
-log prob : -449664.64408616046
-runtime  : 769.3446793556213
+accuracy : 0.8715308151093439
+log prob : -169634.70728474544
+runtime  : 686.132942199707
 Gibbs sampling with K = 1000
-accuracy : 0.14039761431411532
-log prob : -450333.90283792
-runtime  : 1544.160679101944
-##--------------------------##
-         beta = 0.1; cap = 500; annealing = 0.1
-##--------------------------##
-Gibbs sampling with K = 2
-accuracy : 0.020675944333996023
-log prob : -520185.54604786873
-runtime  : 1.6891193389892578
-Gibbs sampling with K = 5
-accuracy : 0.020675944333996023
-log prob : -520185.54604786873
-runtime  : 6.3501081466674805
-Gibbs sampling with K = 10
-accuracy : 0.020675944333996023
-log prob : -520185.54604786873
-runtime  : 14.084397554397583
-Gibbs sampling with K = 50
-accuracy : 0.020675944333996023
-log prob : -520185.54604786873
-runtime  : 76.20133423805237
-Gibbs sampling with K = 100
-accuracy : 0.020675944333996023
-log prob : -520185.54604786873
-runtime  : 153.9886794090271
-Gibbs sampling with K = 500
-accuracy : 0.020675944333996023
-log prob : -520185.54604786873
-runtime  : 777.471186876297
-Gibbs sampling with K = 1000
-accuracy : 0.020675944333996023
-log prob : -520185.54604786873
-runtime  : 1561.7215926647186
-##--------------------------##
-         beta = 0.1; cap = 10000000000.0; annealing = 0.1
-##--------------------------##
-Gibbs sampling with K = 2
-accuracy : 0.020675944333996023
-log prob : -520185.54604786873
-runtime  : 1.6699120998382568
-Gibbs sampling with K = 5
-accuracy : 0.020675944333996023
-log prob : -520185.54604786873
-runtime  : 6.295660972595215
-Gibbs sampling with K = 10
-accuracy : 0.020675944333996023
-log prob : -520185.54604786873
-runtime  : 13.97018551826477
-Gibbs sampling with K = 50
-accuracy : 0.020675944333996023
-log prob : -520185.54604786873
-runtime  : 75.55661630630493
-Gibbs sampling with K = 100
-accuracy : 0.020675944333996023
-log prob : -520185.54604786873
-runtime  : 152.7008376121521
-Gibbs sampling with K = 500
-accuracy : 0.020675944333996023
-log prob : -520185.54604786873
-runtime  : 770.7701423168182
-Gibbs sampling with K = 1000
-accuracy : 0.020675944333996023
-log prob : -520185.54604786873
-runtime  : 1549.956744670868
+accuracy : 0.17518886679920478
+log prob : -434717.2169357607
+runtime  : 1418.213002204895
 ##############################################################
                             problem 2.c                       
 ##############################################################
 ##--------------------------##
          beta = 1
 ##--------------------------##
+K        : 2
+accuracy : 0.39673956262425447
+log prob : -1074178.4547643424
+runtime  : 2.0284602642059326
+K        : 5
+accuracy : 0.8607157057654076
+log prob : -167320.56105815864
+runtime  : 6.394461631774902
+K        : 10
+accuracy : 0.878051689860835
+log prob : -164586.2179942398
+runtime  : 13.577358484268188
+K        : 50
+accuracy : 0.8893836978131213
+log prob : -163645.32081695786
+runtime  : 70.79583215713501
+K        : 100
+accuracy : 0.8906560636182903
+log prob : -163530.9041432954
+runtime  : 142.5425534248352
+K        : 500
+accuracy : 0.8930417495029821
+log prob : -163473.69854762242
+runtime  : 717.58975481987
+K        : 1000
+accuracy : 0.8939960238568588
+log prob : -163480.02960170328
+runtime  : 1439.7511596679688
