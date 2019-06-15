@@ -6,9 +6,9 @@ import collections
 from collections import Counter
 
 
-def data_pre():
+def data_pre(textfile = "../data/cbt-characters.txt"):
 	## output is a list of list
-	with open("../data/cbt-characters.txt", "r") as f:
+	with open(textfile, "r") as f:
 		Xs = []
 		for x in f.readlines():
 			Xs.append(list(x[:-1]))
@@ -114,7 +114,7 @@ def get_G0(seg_counter,y):
 
 
 
-def inference(X_list,Btruth, config):
+def inference(X_list,Btruth, config, bpa = True):
 	s = config["s"]
 	beta = config["beta"]
 	g = config["g"]
@@ -235,10 +235,12 @@ def inference(X_list,Btruth, config):
 				seg_counter = set_seg_count(seg_counter, ynext, nynext)
 				total_n = n_other
 
-		acc = accuracy(B_list, Btruth)
+		
 		runtime = time.time() - start
 		print("  time {}\n".format(runtime))
-		print("   acc {}\n".format(acc))
+		if bpa:
+			acc = accuracy(B_list, Btruth)
+			print("   acc {}\n".format(acc))
 		print("   NBC {}\n".format(NBC))
 		total_NBC.append(NBC)
 
