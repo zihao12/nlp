@@ -2,6 +2,8 @@
 import numpy as np
 import pdb
 import time
+import collections
+from collections import Counter
 
 
 def data_pre():
@@ -17,6 +19,19 @@ def data_pre():
 			Bs.append(list(map(int, b[:-1])))
 
 	return Xs, Bs
+
+def get_char_probs(X_list):
+    x_cont = np.concatenate(X_list)
+    C = Counter(x_cont)
+    prob_unif = 1/len(C)
+    
+    prob_unigram = collections.defaultdict(float)
+    total_freq = sum([C[x] for x in C])
+    for c in C:
+        prob_unigram[c] = C[c]/total_freq
+
+    return prob_unif, prob_unigram
+
 
 def evaluation(Bs, Btruth):
 	total = 0
@@ -63,18 +78,24 @@ def init(X_list, g, seed = 123):
 	B_list = [init_one(X,g).tolist() for X in X_list]
 	return B_list
 
-
-def G0(y, beta, pchar = "uniform"):
+## pchar : (prob_type, probs)
+def G0(y, beta, pchar):
 	y = list(y)
 	out = np.power(1-beta, len(y) - 1) * beta
-	if pchar == "uniform":
-		out *= np.exp(len(y)*np.log(1/54)) ## need to count the unique characters
+	prob_type = pchar[0]
+	probs = pchar[1]
+
+	if prob_type == "uniform":
+		out *= np.exp(len(y)*np.log(probs)) 
+	if prob_type == "unigram":
+		probs_log = sum([np.log(probs[c]) for c in y])
+		out *= np.exp(probs_log)
 	return out
 
-def new_seg(seg_counter, y, beta, pchar = "uniform"):
+def new_seg(seg_counter, y, beta,pchar):
 	seg = "".join(y)
 	if seg not in seg_counter.keys():
-		myG0 = G0(y, beta, pchar)
+		myG0 = G0(y, beta,pchar)
 		seg_counter[seg] = [0, myG0]
 	return seg_counter
 
@@ -82,7 +103,6 @@ def set_seg_count(seg_counter, y, count):
 	seg = "".join(y)
 	seg_counter[seg][0] = count
 	return seg_counter
-
 
 def get_count(seg_counter,y):
 	seg = "".join(y)
@@ -100,6 +120,13 @@ def inference(X_list,Btruth, config):
 	g = config["g"]
 	niter = config["niter"]
 	pchar = config["pchar"]
+
+	print("get char probability")
+	prob_uniform, prob_unigram = get_char_probs(X_list)
+	if pchar == "uniform":
+		pchar = (pchar, prob_uniform)
+	if pchar == "unigram":
+		pchar = (pchar, prob_unigram)
 	## initialization
 	## TODO:
 	print("initialization")
