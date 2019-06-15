@@ -24,3 +24,4 @@ out_df = pd.DataFrame(
      'acc': accs
     })
 
+out_df.to_csv("../output/exper_2a.csv",index=False)
