@@ -1,27 +1,34 @@
 import sys
-from gibbs import data_pre, initialization, evaluation, gibbs_sampler
+from model import data_pre, inference, accuracy
 import time
 import numpy as np
 import itertools
 import pickle
 
+niter = 1
+pchar = "uniform"
 
-ss = [1,10,100,1000]
+
+ss = [0.1,0.5,5,20]
 betas = [0.01,0.1,0.5,0.9]
 gs = [0.01,0.1,0.5,0.9]
 combinations = list(itertools.product(ss,betas,gs))
 ## read the parameter used here
 idx = int(sys.argv[1]) - 1
 (s,beta, g) = combinations[idx]
+
+config = {"s":s, "beta":beta,"g":g, "niter":niter, "pchar":pchar}
 print("s = {}; beta = {}; g = {}\n".format(s,beta,g))
 
 (Xs, Btruth) = data_pre()
 start = time.time()
-Bs = gibbs_sampler(Xs,g = g, s= s, beta = beta, niter=1)
+Bs,NBC = inference(Xs,Btruth,config)
 runtime = time.time() - start
 print("runtime : {}".format(runtime))
 
-acc = evaluation(Bs, Btruth)
+# import pdb
+# pdb.set_trace()
+acc = accuracy(Bs, Btruth)
 
 print("acc : {}".format(acc))
 
@@ -36,3 +43,10 @@ out_name = "../output/exper_2a_{}.pkl".format(idx)
 with open(out_name, "wb") as f:
 	pickle.dump(out, f)
 
+pred_name = "../output/exper_2a_{}_B.pkl".format(idx)
+with open(pred_name, "wb") as f:
+        pickle.dump(Bs, f)
+
+NBC_name = "../output/exper_2a_{}_NBC.pkl".format(idx)
+with open(NBC_name, "wb") as f:
+        pickle.dump(NBC, f)
