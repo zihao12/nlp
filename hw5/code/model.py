@@ -121,6 +121,14 @@ def inference(X_list,Btruth, config):
 	niter = config["niter"]
 	pchar = config["pchar"]
 
+	## schedule is (g_start, rate, cap)
+	try:
+		schedule = config["schedule"]
+	except:
+		schedule = (1,0,1)
+
+	alpha_, rate, cap = schedule ## we raise probability to its alpha-power
+
 	print("get char probability")
 	prob_uniform, prob_unigram = get_char_probs(X_list)
 	if pchar == "uniform":
@@ -155,6 +163,7 @@ def inference(X_list,Btruth, config):
 	total_NBC = []
 	## gibbs sampling
 	for i in range(niter):
+		alpha = min(alpha_ + i*rate, cap)
 		print("--------- niter {} -------------\n".format(i+1))
 		start = time.time()
 		NBC = 0
@@ -201,6 +210,9 @@ def inference(X_list,Btruth, config):
 				p0_ = (nyfull + s*get_G0(seg_counter,yfull))/(n_other + s)
 				p1_ = (nyprev + s*get_G0(seg_counter,yprev)) * (nynext + indicator + s*get_G0(seg_counter,ynext))*(1-g)
 				p1_ = p1_/((n_other + s) * (n_other + s + 1))
+
+				p0_ = np.power(p0_,alpha)
+				p1_ = np.power(p1_,alpha)
 				p0 = p0_/(p0_ + p1_)
 
 				new = 0 if probs[k] < p0 else 1
